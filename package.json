@@ -33,11 +33,6 @@
   "description": "Create a simple bio-link page from the markdown file with Next.js and TailwindCSS.",
   "main": "next.config.js",
   "author": "L RMN",
-  "license": "MIT"
-}
-{
-  "name": "nama-aplikasi",
-  "homepage": "https://lrmn7.github.io/lrmn7.github.io",
-  "version": "0.1.0",
-  // ...
+  "license": "MIT",
+  "homepage": "https://lrmn7.github.io/lrmn7.github.io"
 }
