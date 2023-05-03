@@ -27,10 +27,17 @@
   "devDependencies": {
     "@types/node": "18.16.3",
     "@types/react": "18.2.0",
+    "gh-pages": "^5.0.0",
     "typescript": "5.0.4"
   },
   "description": "Create a simple bio-link page from the markdown file with Next.js and TailwindCSS.",
   "main": "next.config.js",
   "author": "L RMN",
   "license": "MIT"
+}
+{
+  "name": "nama-aplikasi",
+  "homepage": "https://lrmn7.github.io/lrmn7.github.io",
+  "version": "0.1.0",
+  // ...
 }
