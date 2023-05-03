@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build-export": "next build && next export",
+    "export": "next export",
+    "deploy": "next build && next export && npx gh-pages -d out"    
+
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.9",
