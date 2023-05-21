@@ -16,11 +16,23 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Original Repo
-Original Repo Link (.pug / .html ) - [Click Me](https://github.com/lrmn7/pixel-theme)🗄️
-Credits - [L RMN](https://github.com/lrmn)
+Original Repo Link (.pug / .html ) - [Click Me](https://github.com/lrmn7/pixel-portfolio-theme)🗄️
+Credits - [L RMN](https://github.com/lrmn7)
+
+## Support me
+
+- 👉 🇮🇩 [Trakteer](https://trakteer.id/lrmn)
+- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/lrmn)
+- 👉 🌍 [Ko-Fi](https://ko-fi.com/lrmn7)
+
+---
+
+## Screenshots
+
+![home](https://media.discordapp.net/attachments/1091192083852828744/1109948128683110530/Screenshot_2023-05-22_at_03-48-26_L_RMN.png?width=806&height=401)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)🗄️
+Copyright © 2023 by [L RMN](https://is-a.fun/)
 
 
 
