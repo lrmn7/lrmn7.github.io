@@ -1,7 +1,51 @@
-# Sat Naing Portfolio & Blog
+<div align="center">
+  <img height="150" src="./public/profile.png"/>
+</div>
 
-![satnaing-portfolio-and-blog](https://user-images.githubusercontent.com/53733092/169645862-d1dda9cb-482f-4428-a63c-8eaf6910ab35.png)
-![ts](https://badgen.net/badge/Built%20With/TypeScript/blue) ![vercel](https://img.shields.io/github/deployments/satnaing/my-portfolio/production?label=vercel&logo=vercel&logoColor=white)
+###
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/romanromannya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="romanromannya" height="30" width="40" /></a>
+<a href="https://instagram.com/romanroman.nya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="romanroman.nya" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/lrmn_vp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="lrmn_vp" height="30" width="40" /></a>
+<a href="https://discord.gg/WFfjrQxnfH" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="lrmn#6666" height="30" width="40" /></a>
+</p>
+
+###
+
+<h1 align="center">hey there 👋</h1>
+
+###
+
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=lrmn7.lrmn7&"  />
+</div>
+
+###
+
+ <h3 align="left">👩‍💻  About Me </h3>
+ <h4 align="left">I'm L RMN from my mom<br><br> 🔭 I’m working with PC<br> ⚡ In my free time I sleep<br>💔 love has a cost, and both of us lost</p></h4>
+
+###
+
+<h3 align="left"> What i'am listening to </h3>
+
+![](https://spotify-github-profile.vercel.app/api/view.svg?uid=hjn5rpwib3744xmkulex0vw4v&redirect=true][https://spotify-github-profile.vercel.app/api/view.svg?uid=hjn5rpwib3744xmkulex0vw4v&cover_image=true&theme=novatorem)
+
+###
+
+Support me
+
+- 👉 🇮🇩 [Trakteer](https://trakteer.id/lrmn)
+- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/lrmn)
+- 👉 🌍 [Ko-Fi](https://ko-fi.com/lrmn7)
+
+
+# L RMN Portfolio & Blog
+
+![lrmn-portfolio-and-blog](https://res.cloudinary.com/lrmn/image/upload/v1685332109/lrmn.dev/lrmn-dev.og_slepvx.png)
+![ts](https://badgen.net/badge/Built%20With/TypeScript/blue) ![vercel](https://img.shields.io/github/deployments/satnaing/my-portfolio/production?label=vercel&logo=vercel&logoColor=white)![netlify](https://img.shields.io/badge/netlify-succes-lightgrey)
 
 My portfolio & blog website developed with Next.JS(SSG) and TypeScript. Tailwind CSS and GSAP is used for styling and animations. Blog contents are written in Markdown format. Light & Dark themes supported.
 
@@ -25,26 +69,18 @@ My portfolio & blog website developed with Next.JS(SSG) and TypeScript. Tailwind
 **Backend** - [Forestry Headless CMS](https://forestry.io/)  
 **Deployment** - [Vercel](https://vercel.com/)
 
-## Lighthouse Score
-
-<p align="center">
-  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fsatnaing.dev%2F&form_factor=desktop">
-    <img width="710" alt="Sat Naing Portfolio Website Lighthouse Score" src="public/lighthouse-result.svg">
-  <a>
-</p>
-
 ## Running Locally
 
 Clone the project
 
 ```bash
-git clone https://github.com/satnaing/satnaing.dev.git
+git clone https://github.com/lrmn7/dev-blog.git
 ```
 
 Go to the project directory
 
 ```bash
-cd satnaing.dev
+cd dev-blog
 ```
 
 Remove remote origin
@@ -73,9 +109,3 @@ Here are some inspiration and credits for the design of my portfolio. However I 
 - [Papermod Hugo Theme](https://adityatelange.github.io/hugo-PaperMod/)
 - [Brittany Chiang Website](https://brittanychiang.com/)
 - [Max Böck Website](https://mxb.dev/)
-
-The digital art in the hero section was illustrated by a friend of mine ([Swann Fevian Kyaw](https://www.facebook.com/bon.zai.3910) [@ToonHa](https://www.facebook.com/ToonHa-102639465752883))
-
-## Author
-
-- [@satnaing](https://satnaing.dev)

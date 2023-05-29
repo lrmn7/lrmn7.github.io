@@ -7,7 +7,7 @@ interface FilterInitialType {
   onLanguageChange?: (val: LanguageType) => void;
 }
 
-export type LanguageType = "All" | "English" | "Myanmar";
+export type LanguageType = "All" | "English" | "Indonesia";
 
 export const filterContext = createContext<FilterInitialType>({
   searchText: "",

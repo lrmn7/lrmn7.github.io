@@ -9,7 +9,7 @@ import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
-import satNaing from "../public/satnaing.webp";
+import LRMN from "../public/avatar.jpg";
 import AboutBgSvg from "@/components/AboutBgSvg";
 import EduGroup from "@/components/EduGroup";
 
@@ -135,11 +135,11 @@ const AboutSection: React.FC = () => {
 
                 <div className="profile-picture overflow-hidden md:overflow-visible rounded-md md:shadow-2xl">
                   <Image
-                    src={satNaing}
+                    src={LRMN}
                     width={1700}
                     height={1790}
                     priority
-                    alt="Sat Naing profile picture"
+                    alt="L RMN profile picture"
                     className="rounded-md"
                   />
                 </div>
@@ -169,18 +169,24 @@ const AboutSection: React.FC = () => {
             </div>
 
             <p className="col-start-1 col-end-3 row-start-4 row-end-6 lg:row-start-1 lg:row-end-2 lg:col-start-3 lg:col-end-6 lg:ml-8 lg:mt-auto about-intro">
-              With 3 years of comprehensive experience in web application
-              development, I have honed my skills in both frontend and backend
-              development. In addition to my hands-on experience in web
-              development, my education has also played a critical role in
-              providing a strong foundation for my career.
+              Hey Greetings, I'm <a href="https://github.com/lrmn7" target="_blank" rel="noopener">L RMN</a>👋🏼,
+              I'm just your average person with a dabbling of coding knowledge and zero experience in <a href="https://lrmn-vp.is-a.fun" target="_blank" rel="noopener">virtual photography</a>.
+              When I'm not scrolling through cat videos on Instagram,
+              I like to pretend to work on projects, hang out with people who barely tolerate me, read books (mostly for the pictures),
+              listen to music, go on adventures (to the bed and back), and daydream about new ideas that I will likely never act on.
             </p>
 
             <div
               className="col-start-3 col-end-6 row-start-1 row-end-6 lg:row-start-2 lg:row-end-7 md:ml-8 place-content-end"
               ref={eduRef}
             >
-              <p className="edu-bg my-4">Here is my educational background.</p>
+              <p className="edu-bg my-4">Despite my general cluelessness, 
+              I've always been curious about the world. As a kid hahaha, 
+              I loved taking things apart and pretending to know how to put them back together
+              While my endeavors in coding and virtual photography have been underwhelming, 
+              I'm confident that my boundless enthusiasm and lack of expertise will carry me to new heights (or maybe just to the coffee shop).
+              So if you're looking for someone who is mediocre at everything and has a knack for making bad jokes, I'm your guy!
+              </p>
               {educationInfo.map((edu) => (
                 <EduGroup edu={edu} key={edu.id} />
               ))}
@@ -197,29 +203,33 @@ const AboutSection: React.FC = () => {
 const educationInfo = [
   {
     id: 1,
-    title: "B.Sc (Hons) in Computing",
-    subTitle: "Edinburgh Napier University | 2018 ~ 2019",
+    title: "Weird Hobbies:",
+    subTitle: "",
     list: [
-      "Studied computer science, software development, DevOps",
-      "Graduated with First Class Honours",
-      "Got merit in 7 modules out of 9",
+      "Watching videos of cats eating at high speed.",
+      "Reading books upside down.",
+      "Listening to music with inverted headphones.",
     ],
   },
+
+  /*
   {
     id: 2,
-    title: "HND in Computing & System Development",
-    subTitle: "Info Myanmar University | 2016 - 2018",
+    title: "comingsoon",
+    subTitle: "comingsoon",
     list: [
-      "Studied modules specializing in software development",
-      "Passed HND with overall Merit",
+      "comingsoon",
+      "comingsoon",
     ],
   },
   {
     id: 3,
-    title: "IELTS",
-    subTitle: "British Council Myanmar | 2017",
-    list: ["Got overall band score 6.5."],
+    title: "comingsoon",
+    subTitle: "comingsoon",
+    list: ["comingsoon"],
   },
+  */
+
 ];
 
 export default AboutSection;

@@ -1,16 +1,15 @@
 ---
 coverImageWidth: "1200"
 coverImageHeight: "700"
-datetime: 2022-03-25T16:55:12.000+00:00
+datetime: 2020-03-07T16:55:12.000+00:00
 tags:
-  - NextJS
-  - TailwindCSS
-  - HeadlessCMS
+  - Portfolio
   - Blog
-author: Sat Naing
+  - Website
+author: L RMN
 type: article
-coverImage: https://res.cloudinary.com/noezectz/image/upload/v1653050141/SatNaing/blog_at_cafe_ei1wf4.jpg
-coverImageAlt: Macbook at a cafe
+coverImage: https://res.cloudinary.com/lrmn/image/upload/v1685332109/lrmn.dev/lrmn-dev.og_slepvx.png
+coverImageAlt: Website look
 title: How Do I Develop My Portfolio Website & Blog
 description:
   My experience about developing my first portfolio website and a blog
@@ -29,11 +28,13 @@ My experience about developing my first portfolio website and a blog using NextJ
 
 ## Motivation
 
-I've been always thinking about launching my own website with my custom domain name (**satnaing.dev**) since my college student life. But that never happened until this project. I've done several projects and works about web application development but I didn't make an effort to do this.
+I've been always thinking about launching my own website with my custom domain name (**LRMN.is-a.dev**)
 
 So, "what about blog?" you may ask. Yeah, blog also has been in my project list for some time. I always wanted to make a blog project using some of the latest technologies. However, I've been busy with my works and other projects so that blog project has never been started.
 
-In these days, I tend to develop my own projects with the focus in good quality rather than quantity. After the project is done, I usually put a proper readme file in the Github repo. But Github repo readme is only suitable for technical aspects (this is just my thought). I want to write down my experiences and challenges. Thus, I decided to make my own blog. Plus, at this point, I have decent experiences and confidence to develop this project.
+In these days, I tend to develop my own projects with the focus in good quality rather than quantity. 
+I want to write down my experiences and challenges. 
+Thus, I decided to make my own blog. Plus, at this point, I have decent experiences and confidence to develop this project.
 
 ## Tech Stack
 
@@ -61,13 +62,9 @@ The following are certain features of my portfolio and blog
 
 The entire project is developed with SEO focus in mind. I've used proper meta tags, descriptions and heading alignments. This website is now indexed by Google.
 
-> You can search this website on google by using keywords like 'sat naing dev'
-
-![searching satnaing.dev on google](https://res.cloudinary.com/noezectz/image/upload/v1648231400/SatNaing/satnaing-on-google_asflq6.png "satnaing.dev is indexed")
-
 Moreover, this website will be displayed well when shared to social media due to properly used meta tags.
 
-![satnaing.dev card layout when shared to Facebook](https://res.cloudinary.com/noezectz/image/upload/v1653106955/SatNaing/satnaing-dev-share-on-facebook_1_zjoehx.png "Card layout when shared to Facebook")
+![lrmn.dev card layout when shared to Facebook](https://res.cloudinary.com/lrmn/image/upload/v1685347663/lrmn-google_q4ifow.png "Card layout when shared to Facebook")
 
 ### Dynamic Sitemap
 
@@ -87,24 +84,20 @@ All blog contents can be searched by search box. Moreover, contents can be filte
 
 ### Performance and Lighthouse Score
 
-This website got very good performance and lighthouse score thanks to proper development and best practices. Here's the lighthouse score for this website.
-
-![satnaing.dev Lighthouse score](https://user-images.githubusercontent.com/53733092/159957822-7082e459-11e9-4616-8f1e-49d0881f7cbb.png "satnaing.dev Lighthouse score")
+This website got very good performance and lighthouse score thanks to proper development and best practices.
 
 ### Animations
 
 Initially I used [Framer Motion](https://www.framer.com/motion/ "Framer Motion") to add animations and micro interactions for this website. However, when I tried to use some complex animations and parallax effects, I found it inconvenient to integrate with Framer Motion (Maybe I'm not very good at and used to working with it). Hence, I decided to use [GSAP](https://greensock.com/ "GSAP Animation Library") for all of my animations. It is one of the most popular animation library and it is capable of doing complex and advanced animations. You can see animations and micro interactions on pretty much every page of this website.
 
-![animations at satnaing.dev](https://res.cloudinary.com/noezectz/image/upload/v1653108324/SatNaing/ezgif.com-gif-maker_2_hehtlm.gif "satnaing.dev website")
+![animations at lrmn.dev](https://res.cloudinary.com/lrmn/image/upload/v1685346299/lrmn.dev/lrmndev_a6vt7t.gif "lrmn.dev website")
 
 ## Outro
 
 In conclusion, this project gives me a lot of experience and confidence about developing blog site (SSG). Now, I have gained knowledge of git-based CMS and how it interacts with NextJS. I've also learned about SEO, dynamic sitemap generation and indexing Google procedures. I will make better projects in the future. So, stay tuned! ✌🏻
 
-And... last but not least, I would like to say 'thanks' to my friend [Swann Fevian Kyaw](https://www.facebook.com/bon.zai.3910 "Swann Fevian Kyaw's Facebook Account") (@[ToonHa](https://www.facebook.com/ToonHa-102639465752883 "ToonHa Facebook Page")) who has drawn a beautiful illustration for my hero section of the website.
-
 ## Project Links
 
-- Website: [https://satnaing.dev/](https://satnaing.dev/ "https://satnaing.dev/")
-- Blog: [https://satnaing.dev/blog](https://satnaing.dev/blog "https://satnaing.dev/blog")
-- Repo: [https://github.com/satnaing/my-portfolio](https://github.com/satnaing/my-portfolio "https://github.com/satnaing/my-portfolio")
+- Website: [https://lrmn.is-a.dev](https://lrmn.dev "https://lrmn.is-a.dev/")
+- Blog: [https://lrmn.is-a.dev/blog](https://lrmn.is-a.dev/blog "https://lrmn.is-a.dev/blog")
+- Repo: [https://github.com/lrmn7/dev-blog](https://github.com/lrmn7/dev-blog "https://github.com/lrmn7/dev-blog")

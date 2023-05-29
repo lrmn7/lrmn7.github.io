@@ -27,7 +27,7 @@ export interface MdxMeta extends Meta {
   coverImageWidth?: string;
   coverImageHeight?: string;
   featured: boolean;
-  language: "English" | "Myanmar";
+  language: "English" | "Indonesia";
 }
 
 type Props = {
@@ -50,7 +50,7 @@ const BlogLayout: React.FC<Props> = ({ post }) => {
       />
 
       <AppHead
-        title={`${post.title} - Sat Naing`}
+        title={`${post.title} - L RMN`}
         url={`${process.env.NEXT_PUBLIC_URL}/blog/posts/${post.slug}`}
         meta={post}
       />

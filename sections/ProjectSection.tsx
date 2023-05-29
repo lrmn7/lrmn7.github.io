@@ -8,10 +8,12 @@ import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
-import terminalPortfolio from "public/projects/terminal-portfolio.webp";
-import haruFashion from "public/projects/haru-fashion.webp";
-import haruApi from "public/projects/haru-api.webp";
-import astroPaper from "public/projects/astro-paper.webp";
+import virtualphotography from "public/projects/virtualphotography.png";
+import donlod from "public/projects/donlod.png";
+import qrcode from "public/projects/qrcode.png";
+import shortin from "public/projects/shortin.png";
+import quraneverything from "public/projects/quraneverything.png";
+import wahelper from "public/projects/wahelper.png";
 
 const ProjectSection: React.FC = () => {
   const { theme } = useTheme();
@@ -53,10 +55,17 @@ const ProjectSection: React.FC = () => {
       <div className="others text-center mb-16">
         Other projects can be explored in{" "}
         <a
-          href="https://github.com/satnaing"
+          href="https://github.com/lrmn7"
           className="font-medium underline link-outline text-marrsgreen dark:text-carrigreen whitespace-nowrap"
         >
           my github profile
+        </a>
+        {""} or {" "}
+        <a
+          href="/blog"
+          className="font-medium underline link-outline text-marrsgreen dark:text-carrigreen whitespace-nowrap"
+        >
+          my blog
         </a>
       </div>
     </section>
@@ -65,75 +74,111 @@ const ProjectSection: React.FC = () => {
 
 const projects = [
   {
-    title: "Terminal Portfolio",
+    title: "Virtual Photography",
     type: "Frontend",
     image: (
       <Image
-        src={terminalPortfolio}
+        src={virtualphotography}
         sizes="100vw"
         fill
         alt="Terminal Portfolio"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "My portfolio website in terminal version developed with React and TypeScript. In this project, styled-components library is used for styling and multiple themes supported.",
-    tags: ["React", "TypeScript", "Styled-Components"],
-    liveUrl: "https://terminal.satnaing.dev/",
-    codeUrl: "https://github.com/satnaing/terminal-portfolio",
+    desc: "My portfolio website in Virtual Photography. I have stories about Virtual Photography to tell, theories to share and time to write.",
+    tags: ["Gallery", "Game", "Virtual Photography", "Blogs"],
+    liveUrl: "https://lrmn-vp.is-a.fun//",
+    codeUrl: "https://github.com/lrmn7/lrmn-vp",
     bgColor: "bg-[#B4BEE0]",
   },
   {
-    title: "Haru Fashion",
+    title: "Donlod",
     type: "Frontend",
     image: (
       <Image
-        src={haruFashion}
+        src={donlod}
         sizes="100vw"
         fill
-        alt="Haru Fashion App"
+        alt="Donlod"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "An ecommerce web application where users can browse various products, add to wishlist, add to cart, and make purchase. Available in English and Burmese languages.",
-    tags: ["NextJS", "TypeScript", "TailwindCSS", "ContextAPI"],
-    liveUrl: "https://haru-fashion.vercel.app/",
-    codeUrl: "https://github.com/satnaing/haru-fashion",
+    desc: "Donlod is a social and media platform downloader that doesn't piss you off. Save what you love without ads, trackers, or other creepy bullshit.",
+    tags: ["No Watermark", "Downloader", "Audio & Video", "Social Media"],
+    liveUrl: "https://donlod.hop.sh/",
+    codeUrl: "https://github.com/lrmn7/donlod/",
     bgColor: "bg-[#A6CECE]",
   },
   {
-    title: "Haru API",
-    type: "Backend",
-    image: (
-      <Image
-        src={haruApi}
-        sizes="100vw"
-        fill
-        alt="Haru API"
-        className="transition-transform duration-500 hover:scale-110 object-cover"
-      />
-    ),
-    desc: "A RESTful API developed for Haru fashion ecommerce project. Include CRUD operations, authentication, authorization, forgot/reset password and full-text search.",
-    tags: ["ExpressJS", "TypeScript", "PostgreSQL", "Prisma"],
-    liveUrl: "https://satnaing.github.io/haru-api/",
-    codeUrl: "https://github.com/satnaing/haru-api",
-    bgColor: "bg-[#C5E4E7]",
-  },
-  {
-    title: "AstroPaper",
+    title: "QRCode Generator",
     type: "Frontend",
     image: (
       <Image
-        src={astroPaper}
+        src={qrcode}
         sizes="100vw"
         fill
-        alt="AstroPaper"
+        alt="QRCode Generator"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "A minimal, responsive and SEO-friendly blog theme for Astro. This theme is developed with Astro, TypeScript and React. This theme includes fuzzy-search, pagination etc.",
-    tags: ["Astro", "TypeScript", "React", "TailwindCSS"],
-    liveUrl: "https://astro-paper.pages.dev/",
-    codeUrl: "https://github.com/satnaing/astro-paper",
+    desc: "This is just a quick mini project of a QR Generator. A simple web app to generate the QR Code.",
+    tags: ["QR Code", "Web App", "Generator"],
+    liveUrl: "https://qr-generator.is-a.fun/",
+    codeUrl: "https://github.com/lrmn7/generator-qr/",
+    bgColor: "bg-[#C5E4E7]",
+  },
+  {
+    title: "Shortin URL",
+    type: "Frontend",
+    image: (
+      <Image
+        src={shortin}
+        sizes="100vw"
+        fill
+        alt="Shortin URL"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Personalized link shortner. (Made using tinyurl API).",
+    tags: ["Shortner", "Shortin", "Tinyurl", "Web App"],
+    liveUrl: "https://shortin.is-a.fun/",
+    codeUrl: "https://github.com/lrmn7/shortin-isafun/",
+    bgColor: "bg-[#9FD0E3]",
+  },
+  {
+    title: "Quran Everything",
+    type: "Frontend",
+    image: (
+      <Image
+        src={quraneverything}
+        sizes="100vw"
+        fill
+        alt="Quran Everything"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Quran Everything is a website that provides prayer schedules, the 99 Names of Allah (Asma'ul Husna), and the ability to read the Quran.",
+    tags: ["Al-Quran", "Translate", "Audio", "Salat times"],
+    liveUrl: "https://quran-everything.is-a.fun/",
+    codeUrl: "https://github.com/lrmn7/quran-everything/",
+    bgColor: "bg-[#9FD0E3]",
+  },
+  {
+    title: "Whatsapp Helper",
+    type: "Frontend",
+    image: (
+      <Image
+        src={wahelper}
+        sizes="100vw"
+        fill
+        alt="Whatsapp Helper"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Just a simple web app to help you initiate and send the WhatsApp chat without saving the phone number.",
+    tags: ["Whatsapp", "Web App", "Wa Helper"],
+    liveUrl: "https://quran-everything.is-a.fun/",
+    codeUrl: "https://github.com/lrmn7/quran-everything/",
     bgColor: "bg-[#9FD0E3]",
   },
 ];

@@ -95,11 +95,11 @@ fields:
   description: Tags for the post
 - name: author
   type: select
-  default: Sat Naing
+  default: L RMN
   config:
     required: true
     options:
-    - Sat Naing
+    - L RMN
     source:
       type: simple
       section: 
@@ -122,5 +122,6 @@ fields:
   label: Type
   description: Type of the post for OG
 pages:
+- contents/donlod-save-what-you-love.md
 - contents/how-do-i-develop-my-portfolio-website-blog.md
-- contents/how-do-i-develop-my-terminal-portfolio-website-with-react.md
+- contents/virtual-gaming-photography-taller-than-life-screenshot-art.md

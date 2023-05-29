@@ -20,8 +20,8 @@ const Blog: NextPage<Props> = ({ posts }) => {
   const { searchText, postLanguage } = useFilter();
   return (
     <>
-      <AppHead title="Blog - Sat Naing" />
-      <Loader>Sat Naing&apos;s Blog</Loader>
+      <AppHead title="Blog - L RMN" />
+      <Loader>L RMN&apos;s Blog</Loader>
       <div className="bg-bglight dark:bg-bgdark min-h-screen">
         <div className="selection:bg-marrsgreen selection:text-bglight dark:selection:bg-carrigreen dark:selection:text-bgdark">
           <SkipToMain />
