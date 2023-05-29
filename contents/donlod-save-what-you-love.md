@@ -1,5 +1,5 @@
 ---
-title: Donlod (save what you love.)
+title: Donlod (save what you love)
 description: Donlod adalah tempat terbaik kamu untuk download video sosial media tanpa watermark, iklan, pelacak, atau omong kosong lainnya
 excerpt: kebijakan privasi donlod sederhana, tidak ada data tentang anda yang pernah dikumpulkan/disimpan. Tidak ada. Apa yang anda unduh adalah urusan anda, bukan urusan saya.
 datetime: 2020-05-11T05:35:07.322+00:00
