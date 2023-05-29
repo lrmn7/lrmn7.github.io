@@ -74,13 +74,13 @@ My portfolio & blog website developed with Next.JS(SSG) and TypeScript. Tailwind
 Clone the project
 
 ```bash
-git clone https://github.com/lrmn7/dev-blog.git
+git clone https://github.com/lrmn7/lrmn7.github.io.git
 ```
 
 Go to the project directory
 
 ```bash
-cd dev-blog
+cd lrmn7.github.io
 ```
 
 Remove remote origin
