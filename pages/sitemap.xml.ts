@@ -1,11 +1,11 @@
-import { GetServerSideProps } from "next";
+import { GetStaticProps, NextPage } from "next";
 import { getAllPosts } from "utils/api";
 import slugify from "utils/slugify";
 
 type Data = {
-  slugs: (string | string[])[];
+  slugs: string[];
   tags: string[];
-  categories: (string | string[])[];
+  categories: string[];
 };
 
 const generateSiteMap = ({ slugs, categories, tags }: Data) => {
@@ -55,43 +55,41 @@ const generateSiteMap = ({ slugs, categories, tags }: Data) => {
  `;
 };
 
-function SiteMap() {
-  // getServerSideProps will do the heavy lifting
-}
+const SiteMap: NextPage = () => {
+  // This component will not be rendered
+  return null;
+};
 
-export const getServerSideProps: GetServerSideProps = async ({ res }) => {
+export const getStaticProps: GetStaticProps = async () => {
   // Retrieve slugs tags and category from contents folder
   const posts = getAllPosts(["slug", "tags", "category"]);
 
   // Generate unique categories and store it in array
-  const categories = posts
-    .map((post) => slugify(post.category as string))
-    .filter((x, i, a) => a.indexOf(x) == i);
+  const categories = Array.from(
+    new Set(posts.map((post) => slugify(post.category as string)))
+  );
 
   // Generate unique tags and store it in array
   let tags: string[] = [];
   for (let post of posts) {
     if (post.tags) tags.push(...(post.tags as string[]));
   }
-  tags = tags.filter((x, i, a) => a.indexOf(x) == i);
+  tags = Array.from(new Set(tags));
 
   // Generate encoded slugs and store it in array
   const slugs = posts.map((post) =>
     encodeURIComponent((post.slug as string).trim())
   );
 
-  const data = { slugs, tags, categories };
+  const data: Data = { slugs, tags, categories };
 
   // Generate the XML sitemap with the posts data
   const sitemap = generateSiteMap(data);
 
-  res.setHeader("Content-Type", "text/xml");
-  // Send the XML to the browser
-  res.write(sitemap);
-  res.end();
-
   return {
-    props: {},
+    props: {
+      sitemap,
+    },
   };
 };
 

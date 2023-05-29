@@ -17,14 +17,9 @@ module.exports = {
   trailingSlash: false,
   images: {
     domains: ["res.cloudinary.com"],
+    unoptimized: true, // Disable Image Optimization
   },
   compiler: {
     removeConsole: true,
   },
 };
-
-// const nextConfig = {
-//   reactStrictMode: true,
-// }
-
-// module.exports = nextConfig

@@ -11,7 +11,7 @@ exports.modules = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "getServerSideProps": () => (/* binding */ getServerSideProps)
+/* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
 /* harmony export */ });
 /* harmony import */ var utils_api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7206);
 /* harmony import */ var utils_slugify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1019);
@@ -57,10 +57,11 @@ const generateSiteMap = ({ slugs , categories , tags  })=>{
    </urlset>
  `;
 };
-function SiteMap() {
-// getServerSideProps will do the heavy lifting
-}
-const getServerSideProps = async ({ res  })=>{
+const SiteMap = ()=>{
+    // This component will not be rendered
+    return null;
+};
+const getStaticProps = async ()=>{
     // Retrieve slugs tags and category from contents folder
     const posts = (0,utils_api__WEBPACK_IMPORTED_MODULE_0__/* .getAllPosts */ .Bd)([
         "slug",
@@ -68,13 +69,13 @@ const getServerSideProps = async ({ res  })=>{
         "category"
     ]);
     // Generate unique categories and store it in array
-    const categories = posts.map((post)=>(0,utils_slugify__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)(post.category)).filter((x, i, a)=>a.indexOf(x) == i);
+    const categories = Array.from(new Set(posts.map((post)=>(0,utils_slugify__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)(post.category))));
     // Generate unique tags and store it in array
     let tags = [];
     for (let post of posts){
         if (post.tags) tags.push(...post.tags);
     }
-    tags = tags.filter((x, i, a)=>a.indexOf(x) == i);
+    tags = Array.from(new Set(tags));
     // Generate encoded slugs and store it in array
     const slugs = posts.map((post)=>encodeURIComponent(post.slug.trim()));
     const data = {
@@ -84,12 +85,10 @@ const getServerSideProps = async ({ res  })=>{
     };
     // Generate the XML sitemap with the posts data
     const sitemap = generateSiteMap(data);
-    res.setHeader("Content-Type", "text/xml");
-    // Send the XML to the browser
-    res.write(sitemap);
-    res.end();
     return {
-        props: {}
+        props: {
+            sitemap
+        }
     };
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SiteMap);

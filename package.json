@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format:check": "prettier --check .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "export": "next export"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
