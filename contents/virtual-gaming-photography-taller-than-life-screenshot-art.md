@@ -1,22 +1,28 @@
 ---
-coverImageWidth: "1200"
-coverImageHeight: "700"
-datetime: 2020-03-25T03:42:51Z
+coverImageWidth: '1200'
+coverImageHeight: '700'
+datetime: 2020-03-25T03:42:51.000Z
 tags:
   - Virtual Photography
   - Tips & Tricks
 author: L RMN
 type: article
-coverImage: https://res.cloudinary.com/lrmn/image/upload/v1685332891/lrmn.dev/lrmn-vp-blog_srglyq.png
+coverImage: >-
+  https://res.cloudinary.com/lrmn/image/upload/v1685332891/lrmn.dev/lrmn-vp-blog_srglyq.png
 coverImageAlt: Virtual Photography
 title: Virtual Gaming Photography taller than life screenshot art
 description: What is Virtual Photography?
-excerpt: My humbled understanding of VP, based on my personal experience so far. Games are spaces of experience as much as entertainment
+excerpt: >-
+  My humbled understanding of VP, based on my personal experience so far. Games
+  are spaces of experience as much as entertainment
 slug: virtual-gaming-ghotography-taller-than-life-screenshot-art
 featured: true
 category: Virtual Photography
 language: English
+_template: blog_article
 ---
+
+
 
 Games are spaces of experience as much as entertainment
 

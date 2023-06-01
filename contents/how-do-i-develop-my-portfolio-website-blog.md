@@ -1,28 +1,32 @@
 ---
-coverImageWidth: "1200"
-coverImageHeight: "700"
-datetime: 2020-03-07T16:55:12.000+00:00
+coverImageWidth: '1200'
+coverImageHeight: '700'
+datetime: 2019-02-07T16:55:12.000Z
 tags:
   - Portfolio
   - Blog
   - Website
 author: L RMN
 type: article
-coverImage: https://res.cloudinary.com/lrmn/image/upload/v1685332109/lrmn.dev/lrmn-dev.og_slepvx.png
+coverImage: >-
+  https://res.cloudinary.com/lrmn/image/upload/v1685332109/lrmn.dev/lrmn-dev.og_slepvx.png
 coverImageAlt: Website look
 title: How Do I Develop My Portfolio Website & Blog
-description:
-  My experience about developing my first portfolio website and a blog
-  using NextJS and a headless CMS.
-excerpt:
+description: >-
+  My experience about developing my first portfolio website and a blog using
+  NextJS and a headless CMS.
+excerpt: >-
   My journey about planning, designing and developing my very first portfolio
-  website and my personal blog. Thoughts about my motivation for this project and
-  experiences.
+  website and my personal blog. Thoughts about my motivation for this project
+  and experiences.
 slug: how-do-i-develop-my-portfolio-and-blog
 featured: true
 category: How Do I
 language: English
+_template: blog_article
 ---
+
+
 
 My experience about developing my first portfolio website and a blog using NextJS and a headless CMS.
 
