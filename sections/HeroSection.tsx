@@ -98,12 +98,10 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="mt-2 my-4 md:mb-8">
           <p className="mb-1">
-            I'm just your average person with a dabbling of coding knowledge and zero experience in virtual photography.
+            Love to explore anything about technology, but focused more on web technologies.
           </p>
           <p>
-            Enthusiastic yet mediocre, always pretending to work on projects and daydreaming about new ideas.
-            Read books, adventures to the bed, and hanging out with barely tolerant people.
-            Ready to reach new heights (or maybe just to the coffee shop).
+            Besides that, I really like the world of photography, especially virtual photography video game.
           </p>
         </div>
         <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
