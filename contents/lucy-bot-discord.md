@@ -56,7 +56,7 @@ _template: blog_article
 - 🐳 Docker Image: [Hub](https://hub.docker.com/r/lrmn7/lucy-bot-discord)
 - 📃 Documentation: [Documentation](https://lrmn.is-a.dev/lucy-docs)
 - 📍 Website: [Website](https://halucy.is-a.fun)
-- 📥 Download: [Download](https://github.com/lrmn7/yuimusic-bot-discord)
+- 📥 Download: [Download](https://github.com/lrmn7/lucy-bot-discord.git)
 
 ## 📦 Prerequisites
 
