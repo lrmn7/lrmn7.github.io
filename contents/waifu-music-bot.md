@@ -27,7 +27,7 @@ _template: blog_article
 ## ❤️‍🔥 WaifuMusic
 - 🔴 Invite our bot directly [here.](https://discord.com/login?redirect_to=%2Foauth2%2Fauthorize%3Fclient_id%3D1090120136167538748%26permissions%3D8%26scope%3Dbot%2520applications.commands)
 - 📍 Visit our bot website: [waifumusic](https://waifu-music.is-a.fun)
-- 📥 Download: [Download](https://github.com/lrmn7/yuimusic-bot-discord)
+- 📥 Download: [Download](https://github.com/lrmn7/waifumusic-bot-discord.git)
 
 ## 💨 Update 2.3.0
 
