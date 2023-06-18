@@ -7,7 +7,7 @@ excerpt: >-
 datetime: 2019-03-25T12:10:07.322Z
 slug: what-you-need-to-build-a-PHP-website
 featured: true
-category: Website
+category: Article
 tags:
 - code
 - idea

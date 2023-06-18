@@ -55,10 +55,10 @@ const ProjectSection: React.FC = () => {
       <div className="others text-center mb-16">
         Other projects can be explored in{" "}
         <a
-          href="https://github.com/lrmn7"
+          href="https://lrmn.is-a.dev/docs"
           className="font-medium underline link-outline text-marrsgreen dark:text-carrigreen whitespace-nowrap"
         >
-          my github profile
+          my docs
         </a>
         {""} or {" "}
         <a

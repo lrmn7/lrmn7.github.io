@@ -4,11 +4,11 @@ import type { AppProps } from "next/app";
 import { ThemeProvider } from "next-themes";
 import { ProvideFilter } from "context/filter";
 import { ProvideSection } from "context/section";
+import Script from 'next/script';
 
 import "../styles/globals.css";
 
 import gsap from "gsap";
-import Script from "next/script";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const cursorRef = useRef(null);
@@ -37,24 +37,15 @@ function MyApp({ Component, pageProps }: AppProps) {
     document.addEventListener("mousedown", hideCursor);
     document.addEventListener("mouseup", showCursor);
   }, []);
+
   return (
     <>
       <Script
-        id="google-analytics"
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        src="https://analytics.umami.is/script.js"
+        data-website-id="ed2f787d-79af-43a9-9a35-1d2aa31197fd"
+        async
       />
 
-      <Script id="google-analytics-script" strategy="lazyOnload">
-        {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-        page_path: window.location.pathname,
-        });
-    `}
-      </Script>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

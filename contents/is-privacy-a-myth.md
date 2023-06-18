@@ -7,7 +7,7 @@ excerpt: >-
 datetime: 2019-03-25T12:10:07.322Z
 slug: is-privacy-a-myth
 featured: true
-category: Website
+category: Article
 tags:
 - Privacy
 author: L RMN

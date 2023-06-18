@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://lrmn.pages.dev/sitemap.xml
+Sitemap: https://lrmn.is-a.dev/sitemap.xml
