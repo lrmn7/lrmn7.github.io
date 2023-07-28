@@ -9,7 +9,6 @@ import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
 import virtualphotography from "public/projects/virtualphotography.png";
-import donlod from "public/projects/donlod.png";
 import qrcode from "public/projects/qrcode.png";
 import shortin from "public/projects/shortin.png";
 import quraneverything from "public/projects/quraneverything.png";
@@ -90,24 +89,6 @@ const projects = [
     liveUrl: "https://lrmn-vp.is-a.fun//",
     codeUrl: "https://github.com/lrmn7/lrmn-vp",
     bgColor: "bg-[#B4BEE0]",
-  },
-  {
-    title: "Donlod",
-    type: "Frontend",
-    image: (
-      <Image
-        src={donlod}
-        sizes="100vw"
-        fill
-        alt="Donlod"
-        className="transition-transform duration-500 hover:scale-110 object-cover"
-      />
-    ),
-    desc: "Donlod is a social and media platform downloader that doesn't piss you off. Save what you love without ads, trackers, or other creepy bullshit.",
-    tags: ["No Watermark", "Downloader", "Audio & Video", "Social Media"],
-    liveUrl: "https://donlod.hop.sh/",
-    codeUrl: "https://github.com/lrmn7/donlod/",
-    bgColor: "bg-[#A6CECE]",
   },
   {
     title: "QRCode Generator",
