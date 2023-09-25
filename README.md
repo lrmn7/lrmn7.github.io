@@ -1,7 +1,7 @@
 # L RMN Portfolio & Blog
 
 ![lrmn-portfolio-and-blog](https://res.cloudinary.com/lrmn/image/upload/v1685332109/lrmn.dev/lrmn-dev.og_slepvx.png)
-![ts](https://badgen.net/badge/Built%20With/TypeScript/blue) ![vercel](https://img.shields.io/github/deployments/lrmn/lrmn7.github.io/production?label=vercel&logo=vercel&logoColor=white)![netlify](https://img.shields.io/badge/netlify-succes-lightgrey)
+![ts](https://badgen.net/badge/Built%20With/TypeScript/blue) ![Vercel](https://vercelbadge.vercel.app/api/lrmn7/lrmn7.github.io)![netlify](https://img.shields.io/badge/netlify-succes-lightgrey)
 
 My portfolio & blog website developed with Next.JS(SSG) and TypeScript. Tailwind CSS and GSAP is used for styling and animations. Blog contents are written in Markdown format. Light & Dark themes supported.
 
