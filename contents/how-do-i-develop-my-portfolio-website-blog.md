@@ -1,6 +1,6 @@
 ---
-coverImageWidth: '1200'
-coverImageHeight: '700'
+coverImageWidth: "1200"
+coverImageHeight: "700"
 datetime: 2018-02-07T16:55:12.000Z
 tags:
   - Portfolio
@@ -26,8 +26,6 @@ language: English
 _template: blog_article
 ---
 
-
-
 My experience about developing my first portfolio website and a blog using NextJS and a headless CMS.
 
 ## Motivation
@@ -36,8 +34,8 @@ I've been always thinking about launching my own website with my custom domain n
 
 So, "what about blog?" you may ask. Yeah, blog also has been in my project list for some time. I always wanted to make a blog project using some of the latest technologies. However, I've been busy with my works and other projects so that blog project has never been started.
 
-In these days, I tend to develop my own projects with the focus in good quality rather than quantity. 
-I want to write down my experiences and challenges. 
+In these days, I tend to develop my own projects with the focus in good quality rather than quantity.
+I want to write down my experiences and challenges.
 Thus, I decided to make my own blog. Plus, at this point, I have decent experiences and confidence to develop this project.
 
 ## Tech Stack

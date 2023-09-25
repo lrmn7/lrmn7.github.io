@@ -1,6 +1,6 @@
 ---
 title: Riviu Buku, Effective TypeScript
-description: >- 
+description: >-
   Tips dan trick menggunakan TypeScript?
 excerpt: >-
   Tips dan trick menggunakan TypeScript?
@@ -15,15 +15,14 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1687075108/lrmn.dev/og-typescript_smwi1u.png
 coverImageAlt: Riviu Buku, Effective TypeScript
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1687075108/lrmn.dev/og-typescript_smwi1u.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1687075108/lrmn.dev/og-typescript_smwi1u.png"
 ogImageAlt: Tips dan trick menggunakan TypeScript?
 type: article
 language: Indonesia
 _template: blog_article
 ---
-
 
 > TLDR: Buku yang efektif, penuh dengan tips - trick bagaimana bekerja dengan TypeScript. 4.5/5.
 

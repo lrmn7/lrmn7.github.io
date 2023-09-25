@@ -1,6 +1,6 @@
 ---
 title: Riviu Buku, The Manager's Path
-description: >- 
+description: >-
   Bagaimana seharusnya seorang manager menyikapi sesuatu
 excerpt: >-
   Riviu Buku: The Manager's Path, Bagaimana seharusnya seorang manager menyikapi sesuatu
@@ -15,15 +15,14 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1687076862/lrmn.dev/themanagerpath-og_migyje.png
 coverImageAlt: Riviu Buku, The Manager's Path
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1687076862/lrmn.dev/themanagerpath-og_migyje.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1687076862/lrmn.dev/themanagerpath-og_migyje.png"
 ogImageAlt: Riviu Buku, The Manager's Path. Bagaimana seharusnya seorang manager menyikapi sesuatu
 type: article
 language: English
 _template: blog_article
 ---
-
 
 > Menjadi manager yang baik sama seperti menjadi manusia yang baik, dimana kita menerapkan sikap empati dan diktaktorsip dalam satu tempat.
 

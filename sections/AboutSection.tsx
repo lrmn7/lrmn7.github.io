@@ -169,23 +169,36 @@ const AboutSection: React.FC = () => {
             </div>
 
             <p className="col-start-1 col-end-3 row-start-4 row-end-6 lg:row-start-1 lg:row-end-2 lg:col-start-3 lg:col-end-6 lg:ml-8 lg:mt-auto about-intro">
-              Hey Greetings, I'm <a href="https://github.com/lrmn7" target="_blank" rel="noopener">L RMN</a>👋🏼,
-              I'm just your average person with a dabbling of coding knowledge and zero experience in <a href="https://lrmn-vp.is-a.fun" target="_blank" rel="noopener">virtual photography</a>.
-              When I'm not scrolling through cat videos on Instagram,
-              I like to pretend to work on projects, hang out with people who barely tolerate me, read books (mostly for the pictures),
-              listen to music, go on adventures (to the bed and back), and daydream about new ideas that I will likely never act on.
+              Hey Greetings, I'm{" "}
+              <a href="https://github.com/lrmn7" target="_blank" rel="noopener">
+                L RMN
+              </a>
+              👋🏼, I'm just your average person with a dabbling of coding
+              knowledge and zero experience in{" "}
+              <a href="https://lrmn-vp.is-a.fun" target="_blank" rel="noopener">
+                virtual photography
+              </a>
+              . When I'm not scrolling through cat videos on Instagram, I like
+              to pretend to work on projects, hang out with people who barely
+              tolerate me, read books (mostly for the pictures), listen to
+              music, go on adventures (to the bed and back), and daydream about
+              new ideas that I will likely never act on.
             </p>
 
             <div
               className="col-start-3 col-end-6 row-start-1 row-end-6 lg:row-start-2 lg:row-end-7 md:ml-8 place-content-end"
               ref={eduRef}
             >
-              <p className="edu-bg my-4">Despite my general cluelessness, 
-              I've always been curious about the world. As a kid hahaha, 
-              I loved taking things apart and pretending to know how to put them back together
-              While my endeavors in coding and virtual photography have been underwhelming, 
-              I'm confident that my boundless enthusiasm and lack of expertise will carry me to new heights (or maybe just to the coffee shop).
-              So if you're looking for someone who is mediocre at everything and has a knack for making bad jokes, I'm your guy!
+              <p className="edu-bg my-4">
+                Despite my general cluelessness, I've always been curious about
+                the world. As a kid hahaha, I loved taking things apart and
+                pretending to know how to put them back together While my
+                endeavors in coding and virtual photography have been
+                underwhelming, I'm confident that my boundless enthusiasm and
+                lack of expertise will carry me to new heights (or maybe just to
+                the coffee shop). So if you're looking for someone who is
+                mediocre at everything and has a knack for making bad jokes, I'm
+                your guy!
               </p>
               {educationInfo.map((edu) => (
                 <EduGroup edu={edu} key={edu.id} />
@@ -229,7 +242,6 @@ const educationInfo = [
     list: ["comingsoon"],
   },
   */
-
 ];
 
 export default AboutSection;

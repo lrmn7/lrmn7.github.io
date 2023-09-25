@@ -45,7 +45,9 @@ const ContactSection: React.FC = () => {
           Let's be awesome together!
         </h3>
         <p className="mb-6 mx-auto max-w-lg md:mb-10 lg:leading-loose">
-          if you're looking for someone who is mediocre at everything and has a knack for making bad jokes, I'm your guy! don't hesitate to contact me!
+          if you're looking for someone who is mediocre at everything and has a
+          knack for making bad jokes, I'm your guy! don't hesitate to contact
+          me!
         </p>
         <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
           Get in touch!

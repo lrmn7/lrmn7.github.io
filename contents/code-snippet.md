@@ -1,6 +1,6 @@
 ---
 title: Code Snippet
-description: >- 
+description: >-
   Welcome to Shortcut Snippet, to make workflow uninterepted and help in saving valuable time.
 excerpt: >-
   Welcome to Shortcut Snippet, to make workflow uninterepted and help in saving valuable time.
@@ -15,16 +15,14 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1685638703/lrmn.dev/code-snippetss_wzhpou.png
 coverImageAlt: Welcome to Shortcut Snippet, to make workflow uninterepted and help in saving valuable time..
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1685638703/lrmn.dev/code-snippetss_wzhpou.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1685638703/lrmn.dev/code-snippetss_wzhpou.png"
 ogImageAlt: Code Snippet
 type: article
 language: English
 _template: blog_article
 ---
-
-
 
 ## Git: Just not to forget.
 

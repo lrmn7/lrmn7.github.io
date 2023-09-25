@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi Vim dengan Vue.js
-description: >- 
+description: >-
   Agar ngoding lama, ga mikirin error tapi mikirin shortcut Vim
 excerpt: >-
   Konfigurasi Vim dengan Vue.js, Agar ngoding lama, ga mikirin error tapi mikirin shortcut Vim
@@ -15,9 +15,9 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1687076722/lrmn.dev/vue-og_farrce.png
 coverImageAlt: Konfigurasi Vim dengan Vue.js
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1687076722/lrmn.dev/vue-og_farrce.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1687076722/lrmn.dev/vue-og_farrce.png"
 ogImageAlt: Konfigurasi Vim dengan Vue.js, Agar ngoding lama, ga mikirin error tapi mikirin shortcut Vim
 type: article
 language: Indoensia

@@ -4,7 +4,7 @@ import type { AppProps } from "next/app";
 import { ThemeProvider } from "next-themes";
 import { ProvideFilter } from "context/filter";
 import { ProvideSection } from "context/section";
-import Script from 'next/script';
+import Script from "next/script";
 
 import "../styles/globals.css";
 

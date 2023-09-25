@@ -1,6 +1,6 @@
 ---
 title: Get OG (Open Graph Image)
-description: >- 
+description: >-
   🍇Open Graph Image Generator based on @vercel/og for personal use.
 excerpt: >-
   What is an GET OG?
@@ -15,16 +15,14 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1686415898/get-og_mnc7lq.png
 coverImageAlt: 🍇Open Graph Image Generator based on @vercel/og for personal use.
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1686415898/get-og_mnc7lq.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1686415898/get-og_mnc7lq.png"
 ogImageAlt: 🍇Open Graph Image Generator based on @vercel/og for personal use.
 type: article
 language: English
 _template: blog_article
 ---
-
-
 
 ## Project Links
 
@@ -52,9 +50,8 @@ It looks like the following:
 
 ## Why use this service?
 
-* Feel free to customize an image for every single blog post or every single documentation page.
-* This is easily introduced through a link with some params.
-
+- Feel free to customize an image for every single blog post or every single documentation page.
+- This is easily introduced through a link with some params.
 
 ## Deploy Guide
 
@@ -63,9 +60,9 @@ It looks like the following:
 3. Connect [Vercel for GitHub](https://vercel.com/github) to automatically deploy each time you `git push`
 4. Add the following to the vercel environment variables: **Settings > Environment Variables**
 
->Name                  | NEXT_PUBLIC_DEPLOYMENT_URL
+> Name | NEXT_PUBLIC_DEPLOYMENT_URL
 
->Value                 | https://deployment.domain.com
+> Value | https://deployment.domain.com
 
 ## Getting Started 🛠️
 

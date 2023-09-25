@@ -1,6 +1,6 @@
 ---
 title: Apa itu ffmpeg dan manipulasi video
-description: >- 
+description: >-
   Pengenalan ffmpeg, perintah - perintah, dan dasar - dasar manipulasi video
 excerpt: >-
   Pengenalan ffmpeg, perintah - perintah, dan dasar - dasar manipulasi video? Pengenalan ffmpeg, perintah - perintah, dan dasar - dasar manipulasi video
@@ -15,9 +15,9 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1687025564/lrmn.dev/blognew_c3f9xe.png
 coverImageAlt: Pengenalan ffmpeg, perintah - perintah, dan dasar - dasar manipulasi video
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1687025564/lrmn.dev/blognew_c3f9xe.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1687025564/lrmn.dev/blognew_c3f9xe.png"
 ogImageAlt: Pengenalan ffmpeg, perintah - perintah, dan dasar - dasar manipulasi video
 type: article
 language: Indonesia

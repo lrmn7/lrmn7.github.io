@@ -1,6 +1,6 @@
 ---
 title: Membuat static site dengan Nuxt.js
-description: >- 
+description: >-
   yuuuk bikin static site
 excerpt: >-
   yuuuk bikin static site, Membuat static site dengan Nuxt.js
@@ -16,15 +16,14 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1687075874/lrmn.dev/jsvue-og_d4pe0w.png
 coverImageAlt: Membuat static site dengan Nuxt.js
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1687075874/lrmn.dev/jsvue-og_d4pe0w.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1687075874/lrmn.dev/jsvue-og_d4pe0w.png"
 ogImageAlt: Membuat static site dengan Nuxt.js
 type: article
 language: Indonesia
 _template: blog_article
 ---
-
 
 Hai! 😃 dan selamat datang di blog baru ini sebelumnya maaf jika ini memakan waktu lama hanya untuk website dengan fitur tak banyak ini. JAMStack sendiri sudah cukup lama berkembang sejak saya mengenalnya 2017 lalu melalui sebuah perusahaan bernama [netlify](https://www.youtube.com/watch?v=rB4Cl5LSe2c) yang berhasil me-_rework_ sebuah website yang suka saya kunjungi saat sedang [belajar programming](https://www.smashingmagazine.com/) sampai sekarang berkarir di dunia ini.
 

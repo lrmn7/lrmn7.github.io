@@ -1,6 +1,6 @@
 ---
 title: Label encoders
-description: >- 
+description: >-
   Encode label of multiple attribute, and return the encoder object.
 excerpt: >-
   Encode label of multiple attribute, and return the encoder object. Import this script to [tempermonkey]
@@ -15,16 +15,14 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1685631797/lrmn.dev/label-encoders_zpwyem.png
 coverImageAlt: Encode label of multiple attribute, and return the encoder object.
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1685631797/lrmn.dev/label-encoders_zpwyem.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1685631797/lrmn.dev/label-encoders_zpwyem.png"
 ogImageAlt: Encode label of multiple attribute, and return the encoder object.
 type: article
 language: English
 _template: blog_article
 ---
-
-
 
 ## SNIPPETS CODE
 
@@ -57,4 +55,5 @@ df_test_encoded, le_test_objects = encode_label(df_test, return_object=True, usi
 ```
 
 ## How to use?
+
 Import this script to [tempermonkey](https://www.tampermonkey.net/)

@@ -98,10 +98,12 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="mt-2 my-4 md:mb-8">
           <p className="mb-1">
-            Love to explore anything about technology, but focused more on web technologies.
+            Love to explore anything about technology, but focused more on web
+            technologies.
           </p>
           <p>
-            Besides that, I really like the world of photography, especially virtual photography video game.
+            Besides that, I really like the world of photography, especially
+            virtual photography video game.
           </p>
         </div>
         <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>

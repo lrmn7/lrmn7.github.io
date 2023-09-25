@@ -1,6 +1,6 @@
 ---
 title: Qr code generator simple
-description: >- 
+description: >-
   After trying to create a nice qr code with a logo for my work I quickly became frustrated by how limited most tools online were and how they all wanted me to signup and added bloat to the process. So I decided to create my own tool that would be simple, easy, feature rich and free to use.😎
 excerpt: >-
   After trying to create a nice qr code with a logo for my work I quickly became frustrated by how limited most tools online were and how they all wanted me to signup and added bloat to the process. So I decided to create my own tool that would be simple, easy, feature rich and free to use.😎
@@ -14,22 +14,20 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1686413389/lrmn.dev/og-qr1_fcax8y.png
 coverImageAlt: This is just a quick mini project of a QR Generator
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1686413389/lrmn.dev/og-qr1_fcax8y.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1686413389/lrmn.dev/og-qr1_fcax8y.png"
 ogImageAlt: This is just a quick mini project of a QR Generator
 type: article
 language: English
 _template: blog_article
 ---
 
-
-
 <h1 align="center">QR Code Generator 📸</h1>
 
 ## Project Links
 
-- LIVE SITE LINK: [https://qr.is-a.fun](https://qr.is-a.fun/ "https://qr.is-a.fun")
+- LIVE SITE LINK: [https://qr-lrmn.vercel.app/](https://qr-lrmn.vercel.app// "https://qr-lrmn.vercel.app/")
 - GITHUB REPO: [https://github.com/lrmn7/QR](https://github.com/lrmn7/QR "https://github.com/lrmn7/QR")
 
 ## About 📝

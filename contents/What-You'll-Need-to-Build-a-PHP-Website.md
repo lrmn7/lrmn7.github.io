@@ -1,6 +1,6 @@
 ---
 title: What You'll Need to Build a PHP Website
-description: >- 
+description: >-
   What You'll Need to Build a PHP Website
 excerpt: >-
   What You'll Need to Build a PHP Website
@@ -9,35 +9,37 @@ slug: what-you-need-to-build-a-PHP-website
 featured: true
 category: Article
 tags:
-- code
-- idea
-- Tips & Tricks
-- PHP
+  - code
+  - idea
+  - Tips & Tricks
+  - PHP
 author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1685640428/PHP_wghpql.png
 coverImageAlt: What You'll Need to Build a PHP Website.
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1685640428/PHP_wghpql.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1685640428/PHP_wghpql.png"
 ogImageAlt: What You'll Need to Build a PHP Website
 type: article
 language: English
 _template: blog_article
 ---
 
-
-
 ## Idea
+
 Basic idea about HTML and PHP. CSS for styling the page. JS is not necessary to build simple website.
 
 ## Server
+
 There are plenty of free hosting providers that offers free PHP hosting with a free subdomain or custom domain. Choose one of them and continue building php website.
 
 ## Why PHP not static HTML
+
 Threre are many CMS that can basic publishing or specefic application but that takes a huge resources as that includes many unused functionality. To do the similar task using less resources which mostly free you have to write your own code. In html you can't change every page at once. You have to manually change every page one by one. Thats why PHP you just make a common header and footer file which will be included in every page. Moreover you can make function to do similar task again and again. PHP generate html on each request in server. You can implement API in PHP. You can build everything you imagine but thats is not our objective. This approach allows for greater flexibility and easier maintenance of the website. Additionally, PHP is a server-side scripting language that can be used to dynamically generate web content based on various inputs, further enhancing the dynamic nature of the website.
 
 ## Write Codes
+
 You can put files inside folder as you like. But Heres we put each file in root drectory.
 
 **File name : header.php**
@@ -75,7 +77,7 @@ You can put files inside folder as you like. But Heres we put each file in root 
 **File name : index.php**
 
 ```index.php
-<?php 
+<?php
 $title = 'Home';
 $description='your description goes here';
 $keywords='php,home';
@@ -89,7 +91,7 @@ Your home page content goes here
 **File name : about.php**
 
 ```about.php
-<?php 
+<?php
 $title = 'About';
 $description='your description goes here';
 $keywords='php,about';
@@ -101,4 +103,5 @@ Your about page content goes here
 ```
 
 ## Simple Website Github Repo
->Here's a very simple and minimal website built with PHP [github repository ↗](https://github.com/lrmn7). just download zip file. Upload to htdoc folder and unzip it. Thunderbirds are go!
+
+> Here's a very simple and minimal website built with PHP [github repository ↗](https://github.com/lrmn7). just download zip file. Upload to htdoc folder and unzip it. Thunderbirds are go!

@@ -1,6 +1,6 @@
 ---
 title: Hotstar subtitle style
-description: >- 
+description: >-
   Customize hotstar.com subtitle
 excerpt: >-
   Customize hotstar.com subtitle. Import this script to [tempermonkey]
@@ -15,16 +15,14 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1685631797/lrmn.dev/Hotstar-subtitle-style_ycrj1w.png
 coverImageAlt: Customize hotstar.com subtitle. Import this script to [tempermonkey]
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1685631797/lrmn.dev/Hotstar-subtitle-style_ycrj1w.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1685631797/lrmn.dev/Hotstar-subtitle-style_ycrj1w.png"
 ogImageAlt: Hotstar subtitle style
 type: article
 language: English
 _template: blog_article
 ---
-
-
 
 ## SNIPPETS CODE
 
@@ -65,4 +63,5 @@ _template: blog_article
 ```
 
 ## How to use?
+
 Import this script to [tempermonkey](https://www.tampermonkey.net/)

@@ -1,6 +1,6 @@
 ---
 title: Remove list of words from given sentences
-description: >- 
+description: >-
   A brute force method to remove words from sentences.
 excerpt: >-
   A brute force method to remove words from sentences.
@@ -15,16 +15,14 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1685631797/lrmn.dev/Remove-list-of-words-from-given-sentences_gabux1.png
 coverImageAlt: A brute force method to remove words from sentences.
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1685631797/lrmn.dev/Remove-list-of-words-from-given-sentences_gabux1.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1685631797/lrmn.dev/Remove-list-of-words-from-given-sentences_gabux1.png"
 ogImageAlt: Remove list of words from given sentences
 type: article
 language: English
 _template: blog_article
 ---
-
-
 
 ## SNIPPETS CODE
 

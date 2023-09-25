@@ -1,6 +1,6 @@
 ---
 title: Reading Code, Error, and Find Example
-description: >- 
+description: >-
   How being ignorant slows you down
 excerpt: >-
   How being ignorant slows you down
@@ -16,15 +16,14 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1687076362/lrmn.dev/og-readingcode_vtwt4u.png
 coverImageAlt: Reading Code, Error, and Find Example
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1687076362/lrmn.dev/og-readingcode_vtwt4u.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1687076362/lrmn.dev/og-readingcode_vtwt4u.png"
 ogImageAlt: How being ignorant slows you down
 type: article
 language: English
 _template: blog_article
 ---
-
 
 Sometimes I mentor programming to my friends, and I always said that understanding what the code you wrote will be an important asset.
 
@@ -93,7 +92,7 @@ But what if you could not understand it at all? Take your time, ask around maybe
 
 ## Make sense of an error
 
-Error is a must when you're learning, I see many people just do `npx create-react-app` because they don't know whats wrong, and ditch  the tutorial, do other things. How could you improve yourself if you just doing this over and over? Learning to code is not easy and instant.
+Error is a must when you're learning, I see many people just do `npx create-react-app` because they don't know whats wrong, and ditch the tutorial, do other things. How could you improve yourself if you just doing this over and over? Learning to code is not easy and instant.
 
 ![example of react error on useeffec](https://i.stack.imgur.com/YFRR5.png)
 
@@ -115,7 +114,7 @@ Even when I tried to wrote this article I happened encounter a strange error mes
 
 ```text
 Tried to use templateContent too early (./posts/reading-code-and-finding-example.md) (via TemplateContentPrematureUseError)
-[0] [11ty] 
+[0] [11ty]
 [0] [11ty] Original error stack trace: TemplateContentPrematureUseError: Tried to use templateContent too early (./posts/reading-code-and-finding-example.md)
 [0] [11ty]     at Object.get templateContent [as templateContent] (/Users/mandaputra/Code/me/mandaputtra/node_modules/@11ty/eleventy/src/Template.js:708:23)
 [0] [11ty]     at Object.memberLookup (/Users/mandaputra/Code/me/mandaputtra/node_modules/nunjucks/src/runtime.js:251:17)
@@ -144,12 +143,11 @@ Take your time, give it 5 minutes. Understand why it happened, if you must just 
 
 Admit it, most of the time you're just _layering brick type of programmer_. Other people code already do many heavy lifting programming to make your code run. Like when you want a 3D box, you can just write:
 
-
 ```js
 const geometry = new THREE.BoxGeometry();
-const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-const cube = new THREE.Mesh( geometry, material );
-scene.add( cube );
+const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+const cube = new THREE.Mesh(geometry, material);
+scene.add(cube);
 
 camera.position.z = 5;
 ```
@@ -168,17 +166,19 @@ Your library documentation sometimes good enough to find an example, but if you 
 Most library had a `test` folder, it contains code to test the library. Learn to read the test, it sometimes describes most of all scenario on how to use the library. Here I clip it from dayjs source code:
 
 ```js
-it('Format invalid date', () => {
-  expect(dayjs('').format()).toBe(new Date('').toString())
-  expect(dayjs('otherString').format()).toBe(new Date('otherString').toString())
-})
+it("Format invalid date", () => {
+  expect(dayjs("").format()).toBe(new Date("").toString());
+  expect(dayjs("otherString").format()).toBe(
+    new Date("otherString").toString()
+  );
+});
 
-it('Format Month M MM MMM MMMM', () => {
-  expect(dayjs().format('M')).toBe(moment().format('M'))
-  expect(dayjs().format('MM')).toBe(moment().format('MM'))
-  expect(dayjs().format('MMM')).toBe(moment().format('MMM'))
-  expect(dayjs().format('MMMM')).toBe(moment().format('MMMM'))
-})
+it("Format Month M MM MMM MMMM", () => {
+  expect(dayjs().format("M")).toBe(moment().format("M"));
+  expect(dayjs().format("MM")).toBe(moment().format("MM"));
+  expect(dayjs().format("MMM")).toBe(moment().format("MMM"));
+  expect(dayjs().format("MMMM")).toBe(moment().format("MMMM"));
+});
 ```
 
 Above code says that below are the library behaviour when formatting invalid date. It should be the same as how `Date` library behave too and below it, the test format month and the format should also be the same as other library format, this mean that dayjs wanted to be compatible with other libs' behaviour in here it's [moment.js](https://momentjs.com/)

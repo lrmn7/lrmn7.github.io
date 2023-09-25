@@ -2,17 +2,17 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { RoughNotation } from "react-rough-notation";
 import { useTheme } from "next-themes";
+import Link from "next/link";
 
 import ProjectCard from "@/components/ProjectCard";
 import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
-import virtualphotography from "public/projects/virtualphotography.png";
-import qrcode from "public/projects/qrcode.png";
-import shortin from "public/projects/shortin.png";
-import quraneverything from "public/projects/quraneverything.png";
-import wahelper from "public/projects/wahelper.png";
+import virtualphotography from "public/projects/og-vp2.svg";
+import widget from "public/projects/widget.svg";
+import ohclips from "public/projects/ohclips.svg";
+import lucy from "public/projects/lucy.svg";
 
 const ProjectSection: React.FC = () => {
   const { theme } = useTheme();
@@ -27,7 +27,7 @@ const ProjectSection: React.FC = () => {
   const { onSectionChange } = useSection();
   useEffect(() => {
     projectSection && onSectionChange!("projects");
-  }, [projectSection]);
+  }, [projectSection, onSectionChange]);
 
   return (
     <section ref={sectionRef} id="projects" className="section">
@@ -53,19 +53,11 @@ const ProjectSection: React.FC = () => {
       </div>
       <div className="others text-center mb-16">
         Other projects can be explored in{" "}
-        <a
-          href="https://lrmn.is-a.dev/docs"
-          className="font-medium underline link-outline text-marrsgreen dark:text-carrigreen whitespace-nowrap"
-        >
-          my docs
-        </a>
-        {""} or {" "}
-        <a
-          href="/blog"
-          className="font-medium underline link-outline text-marrsgreen dark:text-carrigreen whitespace-nowrap"
-        >
-          my blog
-        </a>
+        <Link href="/blog" legacyBehavior>
+          <a className="font-medium underline link-outline text-marrsgreen dark:text-carrigreen whitespace-nowrap">
+            my blog
+          </a>
+        </Link>
       </div>
     </section>
   );
@@ -86,80 +78,62 @@ const projects = [
     ),
     desc: "My portfolio website in Virtual Photography. I have stories about Virtual Photography to tell, theories to share and time to write.",
     tags: ["Gallery", "Game", "Virtual Photography", "Blogs"],
-    liveUrl: "https://lrmn-vp.is-a.fun//",
-    codeUrl: "https://github.com/lrmn7/lrmn-vp",
+    liveUrl: "https://lrmn-vp.site/",
+    codeUrl: "https://github.com/lrmn7/",
     bgColor: "bg-[#B4BEE0]",
   },
   {
-    title: "QRCode Generator",
+    title: "L u c y ♡",
     type: "Frontend",
     image: (
       <Image
-        src={qrcode}
+        src={lucy}
         sizes="100vw"
         fill
-        alt="QRCode Generator"
+        alt="lucy"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "This is just a quick mini project of a QR Generator. A simple web app to generate the QR Code.",
-    tags: ["QR Code", "Web App", "Generator"],
-    liveUrl: "https://qr-generator.is-a.fun/",
-    codeUrl: "https://github.com/lrmn7/generator-qr/",
-    bgColor: "bg-[#C5E4E7]",
-  },
-  {
-    title: "Shortin URL",
-    type: "Frontend",
-    image: (
-      <Image
-        src={shortin}
-        sizes="100vw"
-        fill
-        alt="Shortin URL"
-        className="transition-transform duration-500 hover:scale-110 object-cover"
-      />
-    ),
-    desc: "Personalized link shortner. (Made using tinyurl API).",
-    tags: ["Shortner", "Shortin", "Tinyurl", "Web App"],
-    liveUrl: "https://shortin.is-a.fun/",
-    codeUrl: "https://github.com/lrmn7/shortin-isafun/",
+    desc: "a discord moderation & music 24/7",
+    tags: ["Discord", "Moderation", "Music"],
+    liveUrl: "https://lucy.is-a.fun/",
+    codeUrl: "https://github.com/Hai-Lucy",
     bgColor: "bg-[#9FD0E3]",
   },
   {
-    title: "Quran Everything",
+    title: "Widget Spotify for obs",
     type: "Frontend",
     image: (
       <Image
-        src={quraneverything}
+        src={widget}
         sizes="100vw"
         fill
-        alt="Quran Everything"
+        alt="Terminal Portfolio"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Quran Everything is a website that provides prayer schedules, the 99 Names of Allah (Asma'ul Husna), and the ability to read the Quran.",
-    tags: ["Al-Quran", "Translate", "Audio", "Salat times"],
-    liveUrl: "https://quran-everything.is-a.fun/",
-    codeUrl: "https://github.com/lrmn7/quran-everything/",
-    bgColor: "bg-[#9FD0E3]",
+    desc: "A Spotify player widget for OBS Studio and Streamlabs OBS that displays the currently playing song.",
+    tags: ["widget", "OBS", "Livestream", "Twitch", "Spotify", "Youtube"],
+    liveUrl: "https://spotify-obs.vercel.app/",
+    codeUrl: "https://github.com/lrmn7/widget-spotify-obs",
+    bgColor: "bg-[#B4BEE0]",
   },
   {
-    title: "Whatsapp Helper",
+    title: "OhCLiPS",
     type: "Frontend",
     image: (
       <Image
-        src={wahelper}
+        src={ohclips}
         sizes="100vw"
         fill
-        alt="Whatsapp Helper"
+        alt="Ohclips"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Just a simple web app to help you initiate and send the WhatsApp chat without saving the phone number.",
-    tags: ["Whatsapp", "Web App", "Wa Helper"],
-    liveUrl: "https://quran-everything.is-a.fun/",
-    codeUrl: "https://github.com/lrmn7/quran-everything/",
+    desc: "Gaming clips sharing platform built using Vue, Express, Redis, Firebase, TailwindCSS and more.",
+    tags: ["Ohclips", "Gaming", "Share moment game", "Web App"],
+    liveUrl: "https://ohclips.vercel.app/",
+    codeUrl: "https://github.com/lrmn7/ohclips",
     bgColor: "bg-[#9FD0E3]",
   },
 ];

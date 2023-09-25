@@ -1,6 +1,6 @@
 ---
 title: Git workflow mudah kok!
-description: >- 
+description: >-
   Implementasi Mudah Websocket dengan Node.js
 excerpt: >-
   Implementasi Mudah Websocket dengan Node.js
@@ -15,9 +15,9 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1687075697/lrmn.dev/og-git_fyv63j.png
 coverImageAlt: Git workflow mudah kok!
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1687075697/lrmn.dev/og-git_fyv63j.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1687075697/lrmn.dev/og-git_fyv63j.png"
 ogImageAlt: Implementasi Mudah Websocket dengan Node.js
 type: article
 language: Indonesia
@@ -26,7 +26,7 @@ _template: blog_article
 
 Kali saya akan membahas beberapa hal mengenai [Git](https://git-scm.com/) sebuah aplikasi versioning yang tentunya mempermudah kita saat membuat aplikasi / memaintain aplikasi.
 
-Git merupakan aplikasi versioning, ya dimana kegunaan-nya adalah versioning aplikasi / atau apapun, saya pernah menemukan novel, buku, dan berkas perpustakaan yang menggunakan Git sebagai versioning karena saking gampangnya dipelajari. Lebih baik juga jika berkas kenegaraan kita menggunakan Git, mudah bukan? ntar tau dah kapan menikah, kapan punya SIM, kapan anak pertama lahir, *your git your history but this you can't revert*.
+Git merupakan aplikasi versioning, ya dimana kegunaan-nya adalah versioning aplikasi / atau apapun, saya pernah menemukan novel, buku, dan berkas perpustakaan yang menggunakan Git sebagai versioning karena saking gampangnya dipelajari. Lebih baik juga jika berkas kenegaraan kita menggunakan Git, mudah bukan? ntar tau dah kapan menikah, kapan punya SIM, kapan anak pertama lahir, _your git your history but this you can't revert_.
 
 Hadirnya Git di inisiasi oleh Linus Trovalds walaupun sekarang di kepalai oleh Junio Hamano. Sebelum Git ada [banyak sekali aplikasi versioning](https://en.wikipedia.org/wiki/Comparison_of_version-control_software), tetapi yang paling populer adalah Git.
 
@@ -44,7 +44,7 @@ $ git diff # Joni memeriksa perubahan yang dilakukan-nya
 $ git commit -m "Innitial commit of awesome app!"
 ```
 
-Git mempunyai 2 area yaitu *stage area* dan *HEAD area*. Gampangnya jika kamu sudah merasa selesai menulis/merubah file lakukan `git add <nama file>` untuk menaruh semua file ke dalam *stage area* untuk kamu periksa lagi apakah perubahan yang kamu lakukan sudah benar. Jika perubahan yang kamu lakukan sudah benar dan kamu sudah mantab maka lakukan `git commit -m "<your message>"` untuk memindahkan file yang kamu rubah ke *HEAD area* dimana nantinya orang lain dapat melihat perubahan yang kamu lakukan.
+Git mempunyai 2 area yaitu _stage area_ dan _HEAD area_. Gampangnya jika kamu sudah merasa selesai menulis/merubah file lakukan `git add <nama file>` untuk menaruh semua file ke dalam _stage area_ untuk kamu periksa lagi apakah perubahan yang kamu lakukan sudah benar. Jika perubahan yang kamu lakukan sudah benar dan kamu sudah mantab maka lakukan `git commit -m "<your message>"` untuk memindahkan file yang kamu rubah ke _HEAD area_ dimana nantinya orang lain dapat melihat perubahan yang kamu lakukan.
 
 Wawan ternyata sudah membuat Git remote repository tempat mereka kerja di Gitlab, Joni lalu menambahakan repo tersebut ke local repostitory-nya.
 
@@ -52,6 +52,7 @@ Wawan ternyata sudah membuat Git remote repository tempat mereka kerja di Gitlab
 # menambahkan remote repository
 $ git add remote origin git@git.gitlab.com:yourgroupname/awesome-app.git
 ```
+
 Sekarang kalian sudah project kalian sudah mempunyai remote repository dimana nantinya Wawan dan Ayu dapat meng-copy project-nya melalui remote repository
 
 ![Dencentralized Workflow](https://nvie.com/img/centr-decentr@2x.png)
@@ -68,7 +69,7 @@ $ git push mirror master
 
 ## Git Branching, your app lifecycle
 
-Git seperti sebuah pohon, *branch* dalam Git merupakan sebuah kopi dari *branch* yang lain. Branch utama pada Git dinamakan *master*, Git workflow yang baik adalah Git workflow yang menggunakan *branch* dengan benar.
+Git seperti sebuah pohon, _branch_ dalam Git merupakan sebuah kopi dari _branch_ yang lain. Branch utama pada Git dinamakan _master_, Git workflow yang baik adalah Git workflow yang menggunakan _branch_ dengan benar.
 
 Hari kedua sebelum diskusi tim dimulai, Wawan membuat `git branch` dahulu
 
@@ -83,7 +84,7 @@ $ git checkout -b feature develop
 $ git push origin feature --set-upstream
 ```
 
-Wawan lalu bilang ke teman - teman lain bahwa nanti saat awal development kita akan menggunakan branch **feature** sebagai branch development yang aktif. Branch **develop** akan digunakan sebagai masa *staging* aplikasi dan branch **master** akan digunakan untuk merilis aplikasi.
+Wawan lalu bilang ke teman - teman lain bahwa nanti saat awal development kita akan menggunakan branch **feature** sebagai branch development yang aktif. Branch **develop** akan digunakan sebagai masa _staging_ aplikasi dan branch **master** akan digunakan untuk merilis aplikasi.
 
 Ternyata Ayu mendapatkan ticket di Jira untuk memulai project terlebih dahulu. Okay!
 
@@ -99,10 +100,10 @@ Dari yang mereka ber-tiga kerjakan dapat dilihat bahwa Branch master (production
 
 Kesimpulannya begini :
 
- - Ada 3 main branch pada aplikasi mereka (master, develop, feature)
- - master branch merupakan production branch
- - develop branch bersinggungan dengan master branch, digunakan sebagai branch staging / testing
- - feature branch merupakan tempat kerja para developer, penamaan dapat menggunakan feature-*namafituranda*
+- Ada 3 main branch pada aplikasi mereka (master, develop, feature)
+- master branch merupakan production branch
+- develop branch bersinggungan dengan master branch, digunakan sebagai branch staging / testing
+- feature branch merupakan tempat kerja para developer, penamaan dapat menggunakan feature-_namafituranda_
 
 ![Illustrasi git branch](https://nvie.com/img/git-model@2x.png)
 
@@ -116,7 +117,7 @@ $ git commit -m "add: login function"
 $ git push origin feature-login --set-upstream
 ```
 
-Yay, perkerjaan Ayu sudah ada pada remote branch, waktunya untuk *merging*. Merging adalah proses mengabungkan branch satu dengan yang lainnya. Biasanya proses merge ini dinamakan Merge Request / Pull Request. Fitur ini tidak tersedia di local Git anda adanya di Gitlab/Github atau layanan versioning lainya. Untuk selanjutnya saya menyebut ini Pull Request (PR).
+Yay, perkerjaan Ayu sudah ada pada remote branch, waktunya untuk _merging_. Merging adalah proses mengabungkan branch satu dengan yang lainnya. Biasanya proses merge ini dinamakan Merge Request / Pull Request. Fitur ini tidak tersedia di local Git anda adanya di Gitlab/Github atau layanan versioning lainya. Untuk selanjutnya saya menyebut ini Pull Request (PR).
 
 Proses PR ini simpel-nya cuma menggabungkan branch target dengan branch dimana tempat development terjadi. Dapat dilakukan juga di lokal dengan cara ini:
 
@@ -128,13 +129,14 @@ $ git merge develop feature
 # merge develop branch to master, app is going to production
 $ git merge master develop
 ```
-Biasanya proses PR digunakan sebagai proses *code review*, oleh developer lain terhadap kode yang kita buat. Jika developer lain sudah merasa oke dengan kode yang kita buat, maka developer itulah nanti yang mengabungkan branch tersebut. Contoh proses code-review dan PR bisa dilihat [disini](https://github.com/vuejs-id/docs/pull/160)
+
+Biasanya proses PR digunakan sebagai proses _code review_, oleh developer lain terhadap kode yang kita buat. Jika developer lain sudah merasa oke dengan kode yang kita buat, maka developer itulah nanti yang mengabungkan branch tersebut. Contoh proses code-review dan PR bisa dilihat [disini](https://github.com/vuejs-id/docs/pull/160)
 
 ### Merge Conflict
 
 Pasti kita pernah mengalami ini sekali atau setiap saat, tergantung seramai apakah sebuah aplikasi di buat. Merge conflict bukanlah hal yang tabu dan perlu ditakuti. Conflict dapat terjadi karena satu developer mengedit 2 hal yang sama.
 
-Cuma memang, kalau kalian melihat kata *conflict* mesti merasa itu sebuah kesalahan, bukan itu hal yang biasa terjadi jika kalian berkerja dengan banyak orang pada suatu codebase jangan takut bisa di *resolve* kok.
+Cuma memang, kalau kalian melihat kata _conflict_ mesti merasa itu sebuah kesalahan, bukan itu hal yang biasa terjadi jika kalian berkerja dengan banyak orang pada suatu codebase jangan takut bisa di _resolve_ kok.
 
 Biasanya kita bingung bagaimana sih langkah pertama untuk memperbaiki konfik kode ini? Jikalau ini terjadi sebelum kamu melakukan `git push` kamu dapat menyelesaikan-nya di lokal. Tapi bagaimana jika ini terjadi saat proses PR?
 
@@ -184,7 +186,7 @@ $ git tag 0.1
 # tadi merupakan versi 0.1
 ```
 
-Tagging biasanya dilakukan di branch *master*, `tag` tidak seperti sebuah branch, tag merupakan satu kesatuan sendiri. Use case, misal aplikasi versi 1.0 mengalami bug pada login, sementara aplikasi 2.0 tidak. User tidak bisa meng-upgrade aplikasi karena harus bayar lagi. Git tag merupakan solusinya.
+Tagging biasanya dilakukan di branch _master_, `tag` tidak seperti sebuah branch, tag merupakan satu kesatuan sendiri. Use case, misal aplikasi versi 1.0 mengalami bug pada login, sementara aplikasi 2.0 tidak. User tidak bisa meng-upgrade aplikasi karena harus bayar lagi. Git tag merupakan solusinya.
 
 ```bash
 # mari ke versi 1.0
@@ -200,15 +202,14 @@ Begitulah sekiranya Git workflow, mudah atau malah masih bingung? Haha. Untuk me
 
 Thanks, Happy Git~ here some notes, I steal their image too...
 
- - [Buddy - Git Workflow](https://buddy.works/blog/5-types-of-git-workflows)
- - [Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
- - [Attlasian Git Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)
+- [Buddy - Git Workflow](https://buddy.works/blog/5-types-of-git-workflows)
+- [Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
+- [Attlasian Git Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
 Git Interactive Tutorial
 
- - [learngitbranching.js.org](https://learngitbranching.js.org/)
- - [try git by Github](https://try.github.io/)
- - [git ready](http://gitready.com/)
+- [learngitbranching.js.org](https://learngitbranching.js.org/)
+- [try git by Github](https://try.github.io/)
+- [git ready](http://gitready.com/)
 
 Be happy be good people eveybody :)
-

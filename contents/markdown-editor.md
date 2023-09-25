@@ -1,6 +1,6 @@
 ---
 title: Markdown Editor
-description: >- 
+description: >-
   Actually, I made it for myself. But of course I'm open to any feedbacks. You can fork or clone this repo and make a PR here if you have some idea. Actually, I made it for myself. But of course I'm open to any feedbacks. You can fork or clone this repo and make a PR here if you have some idea.
 excerpt: >-
   This is a simple live markdown editor, build with React (Vite) and Chakra UI. Actually, I made it for myself. But of course I'm open to any feedbacks. You can fork or clone this repo and make a PR here if you have some idea.
@@ -14,16 +14,14 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1686415039/lrmn.dev/markdown-editor-og_tpdard.png
 coverImageAlt: This is a simple live markdown editor, build with React (Vite) and Chakra UI
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1686415039/lrmn.dev/markdown-editor-og_tpdard.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1686415039/lrmn.dev/markdown-editor-og_tpdard.png"
 ogImageAlt: TThis is a simple live markdown editor, build with React (Vite) and Chakra UI
 type: article
 language: English
 _template: blog_article
 ---
-
-
 
 ## Project Links
 

@@ -1,6 +1,6 @@
 ---
 title: LUCY | Moderation discord bot
-description: >- 
+description: >-
   Admin, AutoMod, Anime, Economy, Fun, Giveaway, Image, Invite, Information, Moderation, Music, Owner, Social, Statistics, Suggestion, Ticket, Utility and More..
 excerpt: >-
   Admin, AutoMod, Anime, Economy, Fun, Giveaway, Image, Invite, Information, Moderation, Music, Owner, Social, Statistics, Suggestion, Ticket, Utility and More..
@@ -12,18 +12,16 @@ tags:
   - Discord Bot
 author: L RMN
 coverImage: >-
-  https://res.cloudinary.com/lrmn/image/upload/v1686073621/lrmn.dev/lucy-blog_vd4iil.png
+  https://i.imgur.com/FeS2YLM.png
 coverImageAlt: Admin, AutoMod, Anime, Economy, Fun, Giveaway, Image, Invite, Information, Moderation, Music, Owner, Social, Statistics, Suggestion, Ticket, Utility and More..
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1686073621/lrmn.dev/lucy-blog_vd4iil.png'
-ogImageAlt: LUCY a all in one bot or multipurpose bot that could server all your need 
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://i.imgur.com/FeS2YLM.png"
+ogImageAlt: LUCY a all in one bot or multipurpose bot that could server all your need
 type: article
 language: English
 _template: blog_article
 ---
-
-
 
 <h1 align="center">
   <br>
@@ -51,12 +49,12 @@ _template: blog_article
 
 ## 🔗 Resource Links
 
-- 🤖 Demo Bot: [Invite Here](https://discord.com/api/oauth2/authorize?client_id=928966154817523723&permissions=8&scope=bot%20applications.commands)
+- 🤖 Demo Bot: [Invite Here](https://discord.com/api/oauth2/authorize?client_id=928966154817523723&permissions=552439376950&redirect_uri=https%3A%2F%2Flucy.hop.sh%2Fapi%2Fcallback&response_type=code&scope=bot%20applications.commands%20guilds.join)
 - 🤝 Support Server: [Join Here](https://discord.gg/WFfjrQxnfH)
-- 🐳 Docker Image: [Hub](https://hub.docker.com/r/lrmn7/lucy-bot-discord)
-- 📃 Documentation: [Documentation](https://lrmn.is-a.dev/lucy-docs)
-- 📍 Website: [Website](https://halucy.is-a.fun)
-- 📥 Download: [Download](https://github.com/lrmn7/lucy-bot-discord.git)
+- 🐳 Docker Image: [Hub](https://hub.docker.com/)
+- 📃 Documentation: [Documentation](https://mkdocs-lucy.vercel.app/)
+- 📍 Website: [Website](https://lucy.is-a.fun)
+- 📥 Download: [Download](https://github.com/Hai-Lucy)
 
 ## 📦 Prerequisites
 
@@ -69,8 +67,8 @@ _template: blog_article
 - Open the terminal and run the following commands
 
 ```
-git clone https://github.com/lrmn/lucy-bot-discord.git
-cd lucy-bot-discord
+git clone https://github.com/Hai-Lucy/lucy.git
+cd lucy
 npm install
 ```
 
@@ -79,11 +77,13 @@ npm install
 - Optionally edit `config.js`
 - Type `npm run start` to start the bot
 
-If you need any additional help, make sure to read our guides [here](https://lrmn.is-a.dev/lucy-docs/additional/guides)
+If you need any additional help, make sure to read our guides [here](https://mkdocs-lucy.vercel.app/)
 
 <br>
 
-<h1 align="center"> ✨ Features ✨ </h1>
+---
+
+# ✨ Features ✨
 
 ### 📡 **Advanced Dashboard**
 
@@ -202,4 +202,3 @@ _**Global slash commands** can take upto 1 hour to be shown across all guilds_
 ```
 
 <br>
-

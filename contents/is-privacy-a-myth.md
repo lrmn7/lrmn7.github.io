@@ -1,6 +1,6 @@
 ---
 title: Is Privacy a Myth
-description: >- 
+description: >-
   Digital Footprint, Data Collection, Data Breaches, Surveillance, Lack of Control
 excerpt: >-
   Digital Footprint, Data Collection, Data Breaches, Surveillance, Lack of Control
@@ -9,21 +9,19 @@ slug: is-privacy-a-myth
 featured: true
 category: Article
 tags:
-- Privacy
+  - Privacy
 author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1685639516/privacy_vmepxg.png
 coverImageAlt: Digital Footprint, Data Collection, Data Breaches, Surveillance, Lack of Control.
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1685639516/privacy_vmepxg.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1685639516/privacy_vmepxg.png"
 ogImageAlt: Is Privacy a Myth
 type: article
 language: English
 _template: blog_article
 ---
-
-
 
 ## Digital Footprint:
 
@@ -45,8 +43,8 @@ Surveillance technologies, such as CCTV cameras, facial recognition, and governm
 
 Individuals may feel they have limited control over their personal information, as data is often collected and processed by third parties without their explicit consent or knowledge.
 
->Trust
+> Trust
 
->Freedom
+> Freedom
 
->Abuse
+> Abuse

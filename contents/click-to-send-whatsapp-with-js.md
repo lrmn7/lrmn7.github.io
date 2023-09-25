@@ -1,6 +1,6 @@
 ---
 title: Click to send whatsapp with javascript
-description: >- 
+description: >-
   Make a link that triggers send whatsapp from javascript
 excerpt: >-
   Make a link that triggers send whatsapp from javascript
@@ -15,9 +15,9 @@ author: L RMN
 coverImage: >-
   https://res.cloudinary.com/lrmn/image/upload/v1687075392/lrmn.dev/og-wajs_t2c3pq.png
 coverImageAlt: Click to send whatsapp with javascript
-coverImageWidth: '1200'
-coverImageHeight: '700'
-ogImage: 'https://res.cloudinary.com/lrmn/image/upload/v1687075392/lrmn.dev/og-wajs_t2c3pq.png'
+coverImageWidth: "1200"
+coverImageHeight: "700"
+ogImage: "https://res.cloudinary.com/lrmn/image/upload/v1687075392/lrmn.dev/og-wajs_t2c3pq.png"
 ogImageAlt: Make a link that triggers send whatsapp from javascript
 type: article
 language: English
