@@ -93,7 +93,7 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="overflow-hidden">
           <span className="text-animation text-2xl md:text-3xl lg:text-3xl block md:my-3 text-marrsgreen dark:text-carrigreen font-medium">
-            A software <i>edgy</i>neer who loves cats
+           {/* A software <i>edgy</i>neer who loves cats */}
           </span>
         </div>
         <div className="mt-2 my-4 md:mb-8">
