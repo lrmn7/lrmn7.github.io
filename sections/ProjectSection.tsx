@@ -114,7 +114,7 @@ const projects = [
       />
     ),
     desc: "A Spotify player widget for OBS Studio and Streamlabs OBS that displays the currently playing song.",
-    tags: ["widget", "OBS", "Livestream", "Twitch", "Spotify", "Youtube"],
+    tags: ["widget", "OBS", "Livestream", "Twitch", "Spotify"],
     liveUrl: "https://spotify-obs.vercel.app/",
     codeUrl: "https://github.com/lrmn7/widget-spotify-obs",
     bgColor: "bg-[#B4BEE0]",
