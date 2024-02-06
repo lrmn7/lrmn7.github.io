@@ -9,7 +9,8 @@ import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
-import virtualphotography from "public/projects/og-vp2.svg";
+// import virtualphotography from "public/projects/og-vp2.svg";
+import mewwme from "public/projects/mew.svg";
 import widget from "public/projects/widget.svg";
 import ohclips from "public/projects/ohclips.svg";
 import lucy from "public/projects/lucy.svg";
@@ -65,19 +66,19 @@ const ProjectSection: React.FC = () => {
 
 const projects = [
   {
-    title: "Virtual Photography",
+    title: "Mewwme's",
     type: "Frontend",
     image: (
       <Image
-        src={virtualphotography}
+        src={mewwme}
         sizes="100vw"
         fill
         alt="Terminal Portfolio"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "My portfolio website in Virtual Photography. I have stories about Virtual Photography to tell, theories to share and time to write.",
-    tags: ["Gallery", "Game", "Virtual Photography", "Blogs"],
+    desc: "The Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities.",
+    tags: ["Discord bot", "Discord music", "Radio FM", "Music 24/7"],
     liveUrl: "https://lrmn-vp.site/",
     codeUrl: "https://github.com/lrmn7/",
     bgColor: "bg-[#B4BEE0]",
@@ -94,8 +95,8 @@ const projects = [
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "a discord moderation & music 24/7",
-    tags: ["Discord", "Moderation", "Music"],
+    desc: "a discord moderation & music 24/7. Music, Economy, Leveling, Fun, Reaction Roles, Moderation, and lots more!",
+    tags: ["Discord bot", "Moderation", "Music"],
     liveUrl: "https://lucy.is-a.fun/",
     codeUrl: "https://github.com/Hai-Lucy",
     bgColor: "bg-[#9FD0E3]",

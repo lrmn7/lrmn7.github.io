@@ -21,7 +21,7 @@ type Props = {
 
 export const meta = {
   description:
-    "Hi i'm L RMN, So if you're looking for someone who is mediocre at everything and has a knack for making bad jokes, I'm your guy!.",
+    "I love exploring anything related to technology. Additionally, I have a strong interest in the world of photography, particularly virtual photography in video games.",
   author: "L RMN",
   type: "website",
   ogImage: `${process.env.NEXT_PUBLIC_URL}/lrmn-dev-og.png`,
@@ -33,7 +33,7 @@ const Home: NextPage<Props> = ({ blogPosts }) => {
   return (
     <>
       <AppHead
-        title="L RMN - A software edgyneer who love cats"
+        title="Hi, i'm L RMN"
         url={`${process.env.NEXT_PUBLIC_URL}`}
         meta={meta}
       />
