@@ -23,7 +23,7 @@ const SocialLinks: React.FC<{ page?: string }> = ({ page }) => {
         </div>
       ) : (
         <div className="hidden fixed left-10 bottom-0 md:flex flex-col w-6 h-56 items-center justify-between">
-          <div className="-rotate-90 text-lg tracking-widest">
+          <div className="-rotate-90 text-s tracking-widest">
             <a
               href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}
               className="link-outline hover:text-marrsgreen dark:hover:text-carrigreen"

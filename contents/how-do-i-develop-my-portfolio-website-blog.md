@@ -102,4 +102,3 @@ In conclusion, this project gives me a lot of experience and confidence about de
 
 - Website: [https://lrmn.is-a.dev](https://lrmn.is-a.dev "https://lrmn.is-a.dev/")
 - Blog: [https://lrmn.is-a.dev/blog](https://lrmn.is-a.dev/blog "https://lrmn.is-a.dev/blog")
-- Repo: [https://github.com/lrmn7/dev-blog](https://github.com/lrmn7/dev-blog "https://github.com/lrmn7/dev-blog")
