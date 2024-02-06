@@ -21,7 +21,7 @@ type Props = {
 
 export const meta = {
   description:
-    "I love exploring anything related to technology. Additionally, I have a strong interest in the world of photography, particularly virtual photography in video games.",
+    "I love exploring anything related to technology. Additionally, I have a strong interest in the world of photography, particularly virtual photography in video games",
   author: "L RMN",
   type: "website",
   ogImage: `${process.env.NEXT_PUBLIC_URL}/lrmn-dev-og.png`,
