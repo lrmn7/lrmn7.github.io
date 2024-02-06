@@ -79,8 +79,8 @@ const projects = [
     ),
     desc: "The Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities.",
     tags: ["Discord bot", "Discord music", "Radio FM", "Music 24/7"],
-    liveUrl: "https://lrmn-vp.site/",
-    codeUrl: "https://github.com/lrmn7/",
+    liveUrl: "https://meww.me/",
+    codeUrl: "https://github.com/mewwme/",
     bgColor: "bg-[#B4BEE0]",
   },
   {
