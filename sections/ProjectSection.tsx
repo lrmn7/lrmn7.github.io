@@ -52,10 +52,10 @@ const ProjectSection: React.FC = () => {
         ))}
       </div>
       <div className="others text-center mb-16">
-        Other projects can be explored in{" "}
-        <Link href="/blog" legacyBehavior>
+        Other projects can be explored in my{" "}
+        <Link href="https://github.com/lrmn7" legacyBehavior>
           <a className="font-medium underline link-outline text-marrsgreen dark:text-carrigreen whitespace-nowrap">
-            my blog
+            Github
           </a>
         </Link>
       </div>
