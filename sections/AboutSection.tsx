@@ -11,7 +11,6 @@ import useScrollActive from "hooks/useScrollActive";
 
 import LRMN from "../public/avatar.jpg";
 import AboutBgSvg from "@/components/AboutBgSvg";
-import EduGroup from "@/components/EduGroup";
 
 const AboutSection: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -119,8 +118,8 @@ const AboutSection: React.FC = () => {
               <h2 className="section-heading">Who am I?</h2>
             </RoughNotation>
           </div>
-          <div className="md:grid grid-rows-5 lg:grid-rows-6 grid-cols-5">
-            <div className="col-start-1 col-end-3 row-start-1 row-end-4 lg:row-end-7 lg:col-start-1 lg:col-end-3 flex justify-center items-center py-4 lg:mb-[20%]">
+          <div className="flex flex-col md:flex-row items-center md:items-start md:grid grid-cols-5 gap-8">
+            <div className="col-start-1 col-end-3 md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-4 lg:row-end-7 lg:col-start-1 lg:col-end-3 flex justify-center items-center py-4 lg:mb-[20%]">
               <div className="relative w-72">
                 <svg
                   width="96"
@@ -168,7 +167,7 @@ const AboutSection: React.FC = () => {
               </div>
             </div>
 
-            <p className="col-start-1 col-end-3 row-start-4 row-end-6 lg:row-start-1 lg:row-end-2 lg:col-start-3 lg:col-end-6 lg:ml-8 lg:mt-auto about-intro">
+            <p className="col-start-1 col-end-3 md:col-start-3 md:col-end-6 row-start-4 row-end-6 lg:row-start-2 lg:row-end-3 lg:col-start-3 lg:col-end-6 lg:ml-8 lg:mt-auto about-intro">
               Hey Greetings, I'm{" "}
               <a href="https://github.com/lrmn7" target="_blank" rel="noopener">
                 L RMN
@@ -183,27 +182,16 @@ const AboutSection: React.FC = () => {
               tolerate me, read books (mostly for the pictures), listen to
               music, go on adventures (to the bed and back), and daydream about
               new ideas that I will likely never act on.
+              <br />
+              Despite my general cluelessness, I've always been curious about
+              the world. As a kid hahaha, I loved taking things apart and
+              pretending to know how to put them back together. While my
+              endeavors in coding and virtual photography have been
+              underwhelming, I'm confident that my boundless enthusiasm and lack
+              of expertise will carry me to new heights (or maybe just to the
+              coffee shop). So if you're looking for someone who is mediocre at
+              everything and has a knack for making bad jokes, I'm your guy!
             </p>
-
-            <div
-              className="col-start-3 col-end-6 row-start-1 row-end-6 lg:row-start-2 lg:row-end-7 md:ml-8 place-content-end"
-              ref={eduRef}
-            >
-              <p className="edu-bg my-4">
-                Despite my general cluelessness, I've always been curious about
-                the world. As a kid hahaha, I loved taking things apart and
-                pretending to know how to put them back together While my
-                endeavors in coding and virtual photography have been
-                underwhelming, I'm confident that my boundless enthusiasm and
-                lack of expertise will carry me to new heights (or maybe just to
-                the coffee shop). So if you're looking for someone who is
-                mediocre at everything and has a knack for making bad jokes, I'm
-                your guy!
-              </p>
-              {educationInfo.map((edu) => (
-                <EduGroup edu={edu} key={edu.id} />
-              ))}
-            </div>
           </div>
         </RoughNotationGroup>
       </section>
@@ -212,36 +200,5 @@ const AboutSection: React.FC = () => {
     </div>
   );
 };
-
-const educationInfo = [
-  {
-    id: 1,
-    title: "Weird Hobbies:",
-    subTitle: "",
-    list: [
-      "Watching videos of cats eating at high speed.",
-      "Reading books upside down.",
-      "Listening to music with inverted headphones.",
-    ],
-  },
-
-  /*
-  {
-    id: 2,
-    title: "comingsoon",
-    subTitle: "comingsoon",
-    list: [
-      "comingsoon",
-      "comingsoon",
-    ],
-  },
-  {
-    id: 3,
-    title: "comingsoon",
-    subTitle: "comingsoon",
-    list: ["comingsoon"],
-  },
-  */
-];
 
 export default AboutSection;

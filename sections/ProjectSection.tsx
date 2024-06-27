@@ -13,7 +13,7 @@ import useScrollActive from "hooks/useScrollActive";
 import mewwme from "public/projects/mew.svg";
 import widget from "public/projects/widget.svg";
 import ohclips from "public/projects/ohclips.svg";
-import lucy from "public/projects/lucy.svg";
+import mewstify from "public/projects/mewstify-blog.svg";
 
 const ProjectSection: React.FC = () => {
   const { theme } = useTheme();
@@ -84,21 +84,21 @@ const projects = [
     bgColor: "bg-[#B4BEE0]",
   },
   {
-    title: "L u c y ♡",
+    title: "Mewstify",
     type: "Frontend",
     image: (
       <Image
-        src={lucy}
+        src={mewstify}
         sizes="100vw"
         fill
-        alt="lucy"
+        alt="mewstify"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "a discord moderation & music 24/7. Music, Economy, Leveling, Fun, Reaction Roles, Moderation, and lots more!",
-    tags: ["Discord bot", "Moderation", "Music"],
-    liveUrl: "https://lucy.is-a.fun/",
-    codeUrl: "https://github.com/Hai-Lucy",
+    desc: "Discover your top artists and songs on Spotify and enjoy your stats with beautiful visuals",
+    tags: ["Spotify Stats", "Mewstify", "Spotify"],
+    liveUrl: "https://mewstify.vercel.app/",
+    codeUrl: "https://github.com/lrmn7/mewstify",
     bgColor: "bg-[#9FD0E3]",
   },
   {

@@ -86,4 +86,4 @@ All game trademarks and assets belong to their owners. All shots belong to me. P
 
 ## WEBSITE LINKS
 
-- Website: [https://lrmn-vp.site/](https://lrmn-vp.site/ "https://lrmn-vp.site/")
+- Website: [https://vp.lrmn.fun/](https://vp.lrmn.fun/ "https://vp.lrmn.fun/")

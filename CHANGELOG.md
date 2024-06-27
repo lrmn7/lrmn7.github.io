@@ -2,13 +2,13 @@
 
 ## v2.3.0
 
-- update blog articles
-- update featured project
-- fix typo in Lucy Project
-- improve performance.
-- update images with svg format.
-- improve accessibility.
-- fix blog category and tags logic
+- 💄 update blog articles
+- ➕ update featured project
+- ✏️ fix typo in Lucy Project
+- ⬆️ improve performance.
+- 💄 update images with svg format.
+- ✨ improve accessibility.
+- ✏️ fix blog category and tags logic
 
 ## v2.2.0
 
