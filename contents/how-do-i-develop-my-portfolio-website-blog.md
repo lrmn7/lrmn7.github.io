@@ -9,8 +9,10 @@ tags:
 author: L RMN
 type: article
 coverImage: >-
-  https://res.cloudinary.com/lrmn/image/upload/v1685332109/lrmn.dev/lrmn-dev.og_slepvx.png
+  /blogs/mywebsite.png
 coverImageAlt: Website look
+ogImage: "/blogs/mywebsite.png"
+ogImageAlt: Design and layout of my first portfolio website and blog
 title: How Do I Develop My Portfolio Website & Blog
 description: >-
   My experience about developing my first portfolio website and a blog using

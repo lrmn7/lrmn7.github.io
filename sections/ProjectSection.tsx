@@ -10,7 +10,7 @@ import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
 // import virtualphotography from "public/projects/og-vp2.svg";
-import mewwme from "public/projects/mew.svg";
+import mewwme from "public/projects/mewwme-og.svg";
 import widget from "public/projects/widget.svg";
 import ohclips from "public/projects/ohclips.svg";
 import mewstify from "public/projects/mewstify-blog.svg";
