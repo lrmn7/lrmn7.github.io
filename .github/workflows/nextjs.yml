@@ -89,9 +89,13 @@ jobs:
         with:
           name: nextjs-out  # Nama artifact yang digunakan di langkah upload dan download
 
-      - name: List downloaded artifact contents
+      - name: Extract artifact
         run: |
-          echo "Listing contents of downloaded artifact:"
+          unzip ./nextjs-out.zip -d ./nextjs-out
+
+      - name: List extracted contents
+        run: |
+          echo "Listing contents of extracted artifact:"
           ls -alh ./nextjs-out
 
       - name: Deploy to GitHub Pages
