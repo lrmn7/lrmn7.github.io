@@ -74,7 +74,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: nextjs-out
+          name: nextjs-out  # Pastikan nama artifact sesuai
           path: ./out
 
   deploy:
@@ -84,8 +84,13 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: nextjs-out  # Nama artifact yang sama dengan yang di-upload
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          artifact_name: nextjs-out
+          artifact_name: nextjs-out  # Nama artifact yang akan digunakan dalam deployment
