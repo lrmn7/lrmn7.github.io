@@ -9,7 +9,7 @@ excerpt: >-
   biaya rendah, skalabilitas tinggi, dan kemitraan global yang strategis.
 datetime: 2025-01-24T11:00:00.000Z
 slug: revolusi-blockchain-somnia-network
-featured: true
+featured: false
 category: Article
 tags:
   - Somnia Network

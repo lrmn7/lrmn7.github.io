@@ -37,15 +37,19 @@ Somnia Network adalah blockchain Layer 1 yang dirancang untuk memberikan kecepat
 Somnia Network dibangun dengan beberapa inovasi teknologi yang membuatnya unggul dibandingkan blockchain lainnya:
 
 ### 1. **Multistream Consensus**
+
 Multistream Consensus adalah mekanisme konsensus inovatif yang memisahkan proses produksi blok dari validasi konsensus. Dengan pendekatan ini, validator dapat memproduksi blok secara independen, meningkatkan throughput jaringan hingga ratusan ribu transaksi per detik (TPS).
 
 ### 2. **ICEdb**
+
 Somnia menggunakan basis data ICEdb, yang dirancang khusus untuk mendukung waktu baca dan tulis yang sangat cepat. Hal ini memungkinkan jaringan untuk menangani volume transaksi yang tinggi tanpa mengorbankan kinerja.
 
 ### 3. **Kompatibilitas EVM**
+
 Dengan kompatibilitas EVM, pengembang dapat dengan mudah memigrasikan aplikasi berbasis Ethereum ke Somnia Network tanpa perubahan besar pada kode mereka. Hal ini mempermudah adopsi dan integrasi teknologi Somnia ke dalam ekosistem blockchain yang sudah ada.
 
 ### 4. **Biaya Transaksi Rendah**
+
 Salah satu keunggulan Somnia adalah biaya transaksinya yang sangat rendah, bahkan saat jaringan berada pada tingkat lalu lintas yang tinggi. Ini memberikan pengalaman pengguna yang lebih baik, terutama bagi mereka yang menggunakan aplikasi dengan transaksi mikro.
 
 ## Mengapa Memilih Somnia Network?
@@ -60,7 +64,6 @@ Ada beberapa alasan mengapa Somnia Network menjadi pilihan yang menarik bagi pen
 ## Potensi Masa Depan
 
 Somnia Network tidak hanya tentang teknologi, tetapi juga tentang membangun ekosistem. Dengan dukungan komunitas yang kuat dan kolaborasi dengan berbagai proyek inovatif, Somnia berpotensi menjadi salah satu blockchain terdepan di masa depan. Fokusnya pada performa, skalabilitas, dan kemudahan penggunaan menjadikannya pilihan yang relevan bagi berbagai industri.
-
 
 > Somnia Network adalah solusi blockchain yang menjanjikan, dengan kombinasi unik dari kecepatan tinggi, biaya rendah, dan kompatibilitas luas. Sebagai influencer di dunia blockchain, saya percaya bahwa Somnia akan memainkan peran penting dalam membentuk masa depan teknologi ini. Jika Anda seorang pengembang, bisnis, atau pengguna yang ingin menjelajahi potensi blockchain yang lebih besar, Somnia Network adalah platform yang patut dipertimbangkan.
 
