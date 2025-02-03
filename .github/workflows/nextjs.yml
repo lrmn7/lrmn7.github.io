@@ -74,7 +74,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: nextjs-out  # Pastikan nama artifact sesuai
+          name: nextjs-out
           path: ./out
 
   deploy:
@@ -87,10 +87,15 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: nextjs-out  # Nama artifact yang sama dengan yang di-upload
+          name: nextjs-out  # Nama artifact yang digunakan di langkah upload dan download
+
+      - name: List downloaded artifact contents
+        run: |
+          echo "Listing contents of downloaded artifact:"
+          ls -alh ./nextjs-out
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          artifact_name: nextjs-out  # Nama artifact yang akan digunakan dalam deployment
+          artifact_name: nextjs-out  # Pastikan nama artifact di deploy pages sesuai
