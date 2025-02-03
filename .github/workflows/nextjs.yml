@@ -87,11 +87,23 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: nextjs-out  # Nama artifact yang digunakan di langkah upload dan download
+          name: nextjs-out
 
-      - name: Extract artifact
+      - name: List downloaded files
         run: |
-          unzip ./nextjs-out.zip -d ./nextjs-out
+          echo "Listing contents of the downloaded directory:"
+          ls -alh
+
+      - name: Unzip artifact
+        run: |
+          # Memeriksa apakah file zip ada dan mengekstraknya
+          if [ -f "./nextjs-out.zip" ]; then
+            echo "File nextjs-out.zip ditemukan, mengekstrak..."
+            unzip ./nextjs-out.zip -d ./nextjs-out
+          else
+            echo "File nextjs-out.zip tidak ditemukan!"
+            exit 1
+          fi
 
       - name: List extracted contents
         run: |
@@ -102,4 +114,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          artifact_name: nextjs-out  # Pastikan nama artifact di deploy pages sesuai
+          artifact_name: nextjs-out
