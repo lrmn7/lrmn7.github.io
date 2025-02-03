@@ -1,17 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
-  async redirects() {
-    return [
-      {
-        source: "/admin",
-        destination: "https://app.forestry.io/login",
-        permanent: true,
-        basePath: false,
-      },
-    ];
-  },
-  // Append the default value with md extensions
+  // Remove redirects if you're using static export
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx", "html"],
   reactStrictMode: true,
   trailingSlash: false,
@@ -22,5 +12,4 @@ module.exports = {
   compiler: {
     removeConsole: true,
   },
-  output: 'server', // Enable server-side features (including redirects)
 };
