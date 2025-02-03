@@ -77,5 +77,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v3
         with:
-          # Artifact name must match the upload artifact name
-          artifact-name: next-pages  # Ensure this matches the upload name
+          artifact_name: next-pages  # Corrected input here
