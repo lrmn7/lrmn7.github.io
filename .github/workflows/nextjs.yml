@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # Update ke versi terbaru
+        uses: actions/checkout@v4
 
       - name: Detect package manager
         id: detect-package-manager
@@ -38,18 +38,18 @@ jobs:
           fi
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4  # Update ke versi terbaru
+        uses: actions/setup-node@v4
         with:
           node-version: "18"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
       - name: Setup GitHub Pages
-        uses: actions/configure-pages@v4  # Update ke versi terbaru
+        uses: actions/configure-pages@v4
         with:
           static_site_generator: next
 
       - name: Restore Next.js Cache
-        uses: actions/cache@v4  # Update ke versi terbaru
+        uses: actions/cache@v4
         with:
           path: .next/cache
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
@@ -65,8 +65,8 @@ jobs:
       - name: Export static HTML files
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
 
-      - name: Upload artifact (Fixed Version)
-        uses: actions/upload-artifact@v4  # Ganti dengan v4 agar tidak deprecated
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
         with:
           name: github-pages
           path: ./out
