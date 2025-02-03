@@ -22,4 +22,5 @@ module.exports = {
   compiler: {
     removeConsole: true,
   },
+  output: 'server', // Enable server-side features (including redirects)
 };
