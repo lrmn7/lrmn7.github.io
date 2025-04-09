@@ -6,7 +6,7 @@ excerpt: >
   Somnia Network memiliki visi besar untuk menciptakan dunia di mana teknologi blockchain dapat diakses oleh semua orang. Pelajari lebih lanjut tentang roadmap, inklusi global, inovasi, dan komitmen terhadap keberlanjutan.
 datetime: 2025-01-27T10:12:00.000Z
 slug: somnia-pemimpin-global-dalam-teknologi-blockchain
-featured: true
+featured: false
 category: Article
 tags:
   - Somnia Network
