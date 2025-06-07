@@ -4,7 +4,7 @@ description: >-
   Eksplorasi bagaimana AGNT Hub menghadirkan agen AI ke dalam X (Twitter), menjadikannya platform eksekusi Web3 real-time yang revolusioner.
 excerpt: >-
   AGNT Hub bukan sekadar alat AI ia merevolusi cara kita menggunakan X (Twitter) dengan menjadikannya arena eksekusi instan untuk interaksi Web3 yang cerdas.
-datetime: 2025-06-07T23:39:00.000Z
+datetime: 2025-06-07T14:39:00.000Z
 slug: bagaimana-agnt-hub-mengubah-x-twitter-menjadi-arena-eksekusi-web3
 featured: false
 category: Article
@@ -15,11 +15,11 @@ tags:
   - AGNT Connect
 author: L RMN
 coverImage: >-
-  /blogs/agnt-hub-ux-web3.png
+  /blogs/agntconnect1.png
 coverImageAlt: Antarmuka AGNT Hub di platform X dengan fitur eksekusi Web3
 coverImageWidth: "1200"
 coverImageHeight: "700"
-ogImage: "/blogs/agnt-hub-ux-web3.png"
+ogImage: "/blogs/agntconnect1.png"
 ogImageAlt: Tampilan visual AGNT Connect dan agen AI di X (Twitter)
 type: article
 language: Indonesia
