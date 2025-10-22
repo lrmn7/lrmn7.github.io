@@ -11,7 +11,7 @@ import useScrollActive from "hooks/useScrollActive";
 
 // import virtualphotography from "public/projects/og-vp2.svg";
 import mewwme from "public/projects/mewwme-og.svg";
-import widget from "public/projects/widget.svg";
+import funquiz from "public/projects/funquiz.svg";
 import ohclips from "public/projects/ohclips.svg";
 import mewstify from "public/projects/mewstify-blog.svg";
 
@@ -102,21 +102,21 @@ const projects = [
     bgColor: "bg-[#9FD0E3]",
   },
   {
-    title: "Widget Spotify for obs",
+    title: "Fun Quiz",
     type: "Frontend",
     image: (
       <Image
-        src={widget}
+        src={funquiz}
         sizes="100vw"
         fill
-        alt="Terminal Portfolio"
+        alt="Fun Quiz Web3"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "A Spotify player widget for OBS Studio and Streamlabs OBS that displays the currently playing song.",
-    tags: ["widget", "OBS", "Livestream", "Twitch", "Spotify"],
-    liveUrl: "https://spotify-obs.vercel.app/",
-    codeUrl: "https://github.com/lrmn7/widget-spotify-obs",
+    desc: "A decentralized quiz platform built on the Somnia Network.",
+    tags: ["Web3", "Quiz App", "Somnia Network", "Gamification"],
+    liveUrl: "https://fun-quiz.fun/",
+    codeUrl: "https://github.com/lrmn7/funquiz",
     bgColor: "bg-[#B4BEE0]",
   },
   {

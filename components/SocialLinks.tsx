@@ -76,7 +76,7 @@ const socialLinks = [
   {
     id: 2,
     title: "L RMN's Instagram Profile",
-    link: "https://www.instagram.com/romanroman.nya",
+    link: "https://www.instagram.com/eleremen7",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const socialLinks = [
   {
     id: 4,
     title: "L RMN's X Profile",
-    link: "https://x.com/romanromannya",
+    link: "https://x.com/eleremen7",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
